@@ -1,6 +1,6 @@
 ---
 title: A post with figures and video
-date: '2019-06-18'
+date: 2023-12-06T19:48:45.327Z
 tags:
   - demo-content
   - blog
