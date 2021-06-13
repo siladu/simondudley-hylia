@@ -7,7 +7,9 @@ metaDesc: Introduction to Simon Dudley's software development blog. Emigrating
 socialImage: /images/6-simon.png
 date: 2021-06-13T19:06:00.506Z
 tags:
+  - dev
   - travel
+  - birds
 ---
 Later this year I'm moving from the land of the Queen to Queensland.
 
