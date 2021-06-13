@@ -4,6 +4,7 @@ title: A British Dev In Australia
 metaTitle: A British Dev In Australia
 metaDesc: Introduction to Simon Dudley's software development blog. Emigrating
   from Manchester, UK to Brisbane, Australia
+socialImage: /images/6-simon.png
 date: 2021-06-13T19:06:00.506Z
 tags:
   - travel
