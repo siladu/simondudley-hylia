@@ -9,5 +9,5 @@
   "enableThirdPartyComments": false,
   "paymentPointer": "$ilp.uphold.com/MggmnFEyQqhk",
   "faviconPath": "/images/favicon.png",
-  "maxPostsPerPage": 1
+  "maxPostsPerPage": 5
 }
