@@ -19,6 +19,6 @@ I am emigrating from Manchester, UK -> Brisbane, Australia.
 
 Join me as I face my fear of spiders and continue my software development career down under. I have worked for years in the UK as a Java web dev and will be joining an Ethereum-based blockchain company.
 
-This blog will focus on the interesting software problems I encounter as I get stuck into the rabbit hole that is blockchain and cryptocurrency, as well as an immigrant's perspective of life in Australia. I may throw a few cheeky birding posts in here too.
+This blog will focus on the interesting software problems I encounter as I delve into the rabbit hole that is blockchain and cryptocurrency, as well as an immigrant's perspective of life in Australia. I may throw a few cheeky birding posts in here too.
 
 ![Male Bullfinch on garden feeder](/images/bullfinch.jpg "Male Bullfinch")
