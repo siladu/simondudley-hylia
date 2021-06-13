@@ -1,6 +1,9 @@
 ---
 layout: layouts/post.njk
-title: A British Dev In Aus
+title: A British Dev In Australia
+metaTitle: A British Dev In Australia
+metaDesc: Introduction to Simon Dudley's software development blog. Emigrating
+  from Manchester, UK to Brisbane, Australia
 date: 2021-06-13T19:06:00.506Z
 tags:
   - travel
