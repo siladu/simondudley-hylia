@@ -22,7 +22,7 @@ I am excited to behold the amazing array of Australian wildlife, many of which a
 
 Of course, as I gain proximity to some family, I lose it to others. This will be hard and not something for which I can prepare. The same applies for friends and colleagues who I will also greatly miss.
 
-Geographically, I will miss the lucious green of spring and summertime in Britain, [the public rights of way](https://www.walksaroundbritain.co.uk/rightsofway.html) and even grey skies (occassionally handy when hungover!) Being close to the historic and cultural richness of Europe will yield itself to new explorations in the South Pacific.
+Geographically, I will miss the luscious green of spring and summertime in Britain, [the public rights of way](https://www.walksaroundbritain.co.uk/rightsofway.html) and even grey skies (occasionally handy when hungover!) Being close to the historic and cultural richness of Europe will yield itself to new explorations in the South Pacific.
 
 Finally, this is probably my only shot at migrating to Australia. Having started the difficult visa process three years ago, I don't think I would have enough points if I were to start now.\
 \
