@@ -6,7 +6,7 @@
   "authorEmail": "test@example.com",
   "authorHandle": "@siladu",
   "authorName": "Simon Dudley",
-  "enableThirdPartyComments": false,
+  "enableThirdPartyComments": true,
   "paymentPointer": "$ilp.uphold.com/MggmnFEyQqhk",
   "faviconPath": "/images/favicon.png",
   "maxPostsPerPage": 5
