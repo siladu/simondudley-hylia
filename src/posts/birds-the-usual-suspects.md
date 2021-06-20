@@ -23,3 +23,5 @@ I’ll kick off the birding blog with the usual suspects: birds I’ve seen in m
 ![Chiffchaff](/images/chiffchaff.jpg "Chiffchaff")
 
 ![Collared Dove](/images/collared-dove.jpg "Collared Dove")
+
+![Dunnock](/images/dunnock.jpg "Dunnock")
