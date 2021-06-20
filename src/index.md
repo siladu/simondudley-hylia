@@ -6,4 +6,4 @@ postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: ""
 ---
-Part software development blog, part travelogue, part bird spotting
+Part [software development blog](/tags/dev), part [travelogue](/tags/travel/), part [bird spotting](/tags/birds)
