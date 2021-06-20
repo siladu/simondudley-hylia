@@ -14,7 +14,7 @@ Beyond observation, my obsession quickly became ‘gotta *capture* ‘em all’ 
 
 I’ll kick off the birding blog with the usual suspects: birds I’ve seen in my Stockport garden and local area...
 
-![Juvenile Blackbird](/images/blackbird-juvenile.jpg "Juvenile Blackbird")
+![Juvenile Blackbird](/images/blackbird-juvenile.jpg "Blackbird (Juvenile)")
 
 ![Male Blue Tit](/images/bluetit.jpg "Blue Tit")
 
@@ -25,3 +25,5 @@ I’ll kick off the birding blog with the usual suspects: birds I’ve seen in m
 ![Collared Dove](/images/collared-dove.jpg "Collared Dove")
 
 ![Dunnock](/images/dunnock.jpg "Dunnock")
+
+![Goldfinch](/images/goldfinch.jpg "Goldfinch")
