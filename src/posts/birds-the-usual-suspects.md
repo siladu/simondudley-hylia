@@ -12,7 +12,7 @@ I received a [great book](https://www.goodreads.com/book/show/5716135-collins-co
 \
 Beyond observation, my obsession quickly became ‘gotta *capture* ‘em all’ (on camera). I’m no photographer but my trusty [Canon PowerShot](https://www.canon.co.uk/for_home/product_finder/cameras/digital_camera/powershot/powershot_sx510_hs/) has a decent zoom for its size and does a great job of capturing the flighty subjects for later identification.
 
-I’ll kick off the birding blog with the usual suspects: birds I’ve seen in my Stockport garden and local area...
+I’ll kick off the birding blog with the usual suspects: birds I’ve seen in my Stockport (and more recently Solihull) garden and local area...
 
 ![Juvenile Blackbird](/images/blackbird-juvenile.jpg "Blackbird (Juvenile)")
 
