@@ -33,3 +33,11 @@ I’ll kick off the birding blog with the usual suspects: birds I’ve seen in m
 ![Greenfinch](/images/greenfinch.jpg "Greenfinch")
 
 ![Heron](/images/heron-roof.jpg "Heron")
+
+![Jay](/images/jay.jpg "Jay")
+
+![Long-tailed Tit](/images/longtailedtit.jpg "Long-tailed Tit")
+
+![Magpie in flight](/images/magpie-flight.jpg "Magpie")
+
+![Chonky Wood Pigeon](/images/pigeon-chonk.jpg "Wood Pigeon")
