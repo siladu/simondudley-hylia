@@ -41,3 +41,11 @@ I’ll kick off the birding blog with the usual suspects: birds I’ve seen in m
 ![Magpie in flight](/images/magpie-flight.jpg "Magpie")
 
 ![Chonky Wood Pigeon](/images/pigeon-chonk.jpg "Wood Pigeon")
+
+![Robin nest building](/images/robin-leaf.jpg "Robin nest building")
+
+![Starling](/images/starling.jpg "Starling")
+
+![Song Thrush](/images/thrush.jpg "Thrush")
+
+![Wren](/images/wren-close.jpg "Wren")
