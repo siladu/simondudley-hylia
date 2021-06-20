@@ -22,4 +22,4 @@ I’ll kick off the birding blog with the usual suspects: birds I’ve seen in m
 
 ![Buzzard](/images/buzzard.jpg "Buzzard")
 
-![Chiff Chaff](/images/chiffchaff.jpg "Chiff Chaff")
+![Chiffchaff](/images/chiffchaff.jpg "Chiffchaff")
