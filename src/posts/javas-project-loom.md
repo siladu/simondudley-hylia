@@ -23,8 +23,8 @@ with this:
 Executors.newVirtualThreadExecutor();
 ```
 
-For highly-concurrent applications, the current limitations of expensive platform threads can warrant a major design choice of using an asynchronous paradigm, 
-
+For highly-concurrent applications - high-traffic web servers say - the current limitations of expensive platform threads can warrant a major design choice to use an asynchronous paradigm, such as [Reactive.](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html)
+Loom proponents contest that this is unnecessary because you can instead create *millions* of virtual threads and write the same straightforward code that would previously have only served *thousands* of requests.
 
 
 
