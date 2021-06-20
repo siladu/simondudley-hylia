@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: "Birds: The Usual Suspects"
 metaDesc: Local garden birds
-socialImage: /images/pigeon-chonk.jpg
+socialImage: /images/starlings-and-pidge.jpg
 date: 2021-06-20T11:33:47.619Z
 tags:
   - birds
