@@ -27,3 +27,9 @@ I’ll kick off the birding blog with the usual suspects: birds I’ve seen in m
 ![Dunnock](/images/dunnock.jpg "Dunnock")
 
 ![Goldfinch](/images/goldfinch.jpg "Goldfinch")
+
+![A pair of Great Tits](/images/great-tits.jpg "A pair of Great Tits")
+
+![Greenfinch](/images/greenfinch.jpg "Greenfinch")
+
+![Heron](/images/heron-roof.jpg "Heron")
