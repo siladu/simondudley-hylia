@@ -18,8 +18,8 @@ I’ll kick off the birding blog with the usual suspects: birds I’ve seen in m
 
 ![Male Blue Tit](/images/bluetit.jpg "Blue Tit")
 
-![Cheeky Looking Bullfinch](/images/bullfinch-cheeky.jpg "Cheeky Bullfinch")
-
 ![Buzzard](/images/buzzard.jpg "Buzzard")
 
 ![Chiffchaff](/images/chiffchaff.jpg "Chiffchaff")
+
+![Collared Dove](/images/collared-dove.jpg "Collared Dove")
