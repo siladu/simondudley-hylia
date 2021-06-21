@@ -35,6 +35,8 @@ I’ll kick off the birding blog with the usual suspects: birds I’ve seen in m
 
 ![Heron](/images/heron-roof.jpg "Heron")
 
+![Jackdaws](/images/jackdaws.jpg "Jackdaws")
+
 ![Jay](/images/jay.jpg "Jay")
 
 ![Long-tailed Tit](/images/longtailedtit.jpg "Long-tailed Tit")
@@ -46,6 +48,10 @@ I’ll kick off the birding blog with the usual suspects: birds I’ve seen in m
 ![Robin nest building](/images/robin-leaf.jpg "Robin nest building")
 
 ![Starling](/images/starling.jpg "Starling")
+
+![House Sparrow](/images/sparrow.jpg "Sparrow")
+
+![Swift](/images/swift.jpg "Swift")
 
 ![Song Thrush](/images/thrush.jpg "Thrush")
 
