@@ -7,9 +7,9 @@ tags:
   - java
   - loom
 ---
-An upcoming Java feature I'm excited about and looks like a game-changer is Project Loom. 
+An upcoming Java feature I'm excited about and looks like a game-changer is [Project Loom](https://wiki.openjdk.java.net/display/loom/Main). 
 
-It's an improvement to the concurrency model which introduces lightweight **virtual threads** (aka fibers, aka user-mode threads) into the Thread API. These exist alongside the existing **platform threads** (aka kernel threads).
+It's an improvement to the concurrency model which introduces lightweight **virtual threads** (aka fibers, aka user-mode threads) into the Thread API. These will exist alongside the existing **platform threads** (aka kernel threads).
 
 The upshot is that Java can manage your threaded programs more efficiently and allow you to write simpler concurrent code. The majority of the work is done under the hood with very minimal API changes.
 
