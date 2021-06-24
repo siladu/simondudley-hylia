@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Australia and COVID-19
 socialImage: /images/favicon.png
-date: 2021-06-23T13:28:41.392Z
+date: 2021-06-24T08:29:25.071Z
 tags:
   - travel
 ---
