@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Australia and COVID-19
+metaDesc: "Australia's handling of COVID-19 and the effect this has had on
+  migrant families "
 socialImage: /images/favicon.png
 date: 2021-06-24T08:29:25.071Z
 tags:
