@@ -14,7 +14,7 @@ That's not full sarcasm, I genuinely **love** Manchester despite the grey skies.
 
 Well...I have family living there who I dearly miss. That's a huge factor. I had made the decision to move long before the Australian borders closed due to Covid, but watching my niece and nephew grow up in 2D has driven home how far away Australia can feel. 
 
-After visiting a couple of times, I realised that I could imagine myself living there and believe my quality of life would be improved...it is after all known as The Lucky Country [(rather ironically)](https://www.bbc.co.uk/news/world-australia-29844752). Since Covid, Brisbane has joined three other Aussie cities as [the tenth most liveable in the world](https://www.cnbc.com/2021/06/09/global-liveability-index-2021-world-most-liveable-cities.html).
+After visiting a couple of times, my partner, Lydia, and I realised that we could imagine myself living there and believe our quality of life would be improved...it is after all known as The Lucky Country [(rather ironically)](https://www.bbc.co.uk/news/world-australia-29844752). Since Covid, Brisbane has joined three other Aussie cities as [the tenth most liveable in the world](https://www.cnbc.com/2021/06/09/global-liveability-index-2021-world-most-liveable-cities.html).
 
 For me, the little things add up. Not having to prepare for changeable weather (though my Britishness will still compel me to discuss it); having space on the roads and being able to park; not having a bumbling buffoon for a Prime Minister...[wait](https://www.youtube.com/watch?v=thJRRcHGbQQ).
 
