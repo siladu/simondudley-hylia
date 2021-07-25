@@ -31,7 +31,7 @@ Spotting my first woodpecker was a real treat. Hard to miss the flash of black, 
 
 ![Greater Spotted Woodpecker - Kirkcudbright, Dumfries and Galloway](/images/greater-spotted-woodpecker-min.jpg "Greater Spotted Woodpecker - Kirkcudbright, Dumfries and Galloway")
 
-The camera on auto-focus is not really up to the task of capturing birds in flight. Ocassionally they come out alright, but it takes some patience!
+The camera on auto-focus is not really up to the task of capturing birds in flight. Occasionally they come out alright, but it takes some patience!
 
 ![Swallow in flight - Caerlaverock Wetland Centre, Dumfries and Galloway](/images/swallow-flight-min.jpg "Swallow in flight - Caerlaverock Wetland Centre, Dumfries and Galloway")
 
