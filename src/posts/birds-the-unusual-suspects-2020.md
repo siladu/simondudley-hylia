@@ -30,3 +30,5 @@ Once lockdown restrictions allowed driving to go for a walk, I expanded my range
 ![Chaffinches - Caerlaverock Wetland Centre, Dumfries and Galloway](/images/chaffinches-min.jpg "Chaffinches - Caerlaverock Wetland Centre, Dumfries and Galloway")
 
 OK so chaffinches are pretty common garden birds, but never in a garden that I've lived in, so unusual for me!
+
+![Oyster Catchers - Kirkcudbright, Dumfries and Galloway](/images/oyster-catchers-min.jpg "Oyster Catchers - Kirkcudbright, Dumfries and Galloway")
