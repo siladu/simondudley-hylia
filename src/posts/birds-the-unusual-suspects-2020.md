@@ -16,3 +16,7 @@ The joys of the 2020 Greater Manchester lockdowns meant fairly limited travel, a
 Once lockdown restrictions allowed driving to go for a walk, I expanded my range from Stockport to the beautiful Goyt Valley. Here I saw my first Kingfisher but it's a speedy and elusive chap, no chance of a snap!
 
 ![Grey Wagtail - Goyt Valley](/images/grey-wagtail-min.jpg "Grey Wagtail - Goyt Valley")
+
+![Juvenile Robin - Goyt Valley](/images/robin-juvenile-min.jpg "Juvenile Robin - Goyt Valley")
+
+![Blackcap (female) - Goyt Valley](/images/blackcap-female-min.jpg "Blackcap (female) - Goyt Valley")
