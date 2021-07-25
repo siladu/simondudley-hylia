@@ -35,14 +35,14 @@ The camera on auto-focus is not really up to the task of capturing birds in flig
 
 ![Swallow in flight - Caerlaverock Wetland Centre, Dumfries and Galloway](/images/swallow-flight-min.jpg "Swallow in flight - Caerlaverock Wetland Centre, Dumfries and Galloway")
 
-
+OK so chaffinches are pretty common garden birds, but never in a garden that I've lived in, so unusual for me!
 
 ![Chaffinches - Caerlaverock Wetland Centre, Dumfries and Galloway](/images/chaffinches-min.jpg "Chaffinches - Caerlaverock Wetland Centre, Dumfries and Galloway")
 
 ![Oyster Catchers - Kirkcudbright, Dumfries and Galloway](/images/oyster-catchers-min.jpg "Oyster Catchers - Kirkcudbright, Dumfries and Galloway")
 
-![Curlew - Kirkcudbright, Dumfries and Galloway](/images/curlew-min.jpg "Curlew - Kirkcudbright, Dumfries and Galloway")
-
 Loved this curlew and haven't seen one since. That curved bill will become a regular sighting for me soon in the form of the infamous [Aussie Bin Chickens](https://en.wikipedia.org/wiki/Australian_white_ibis).
+
+![Curlew - Kirkcudbright, Dumfries and Galloway](/images/curlew-min.jpg "Curlew - Kirkcudbright, Dumfries and Galloway")
 
 ![Cormorants - Portpatrick, Dumfries and Galloway](/images/cormorants-min.jpg "Cormorants - Portpatrick, Dumfries and Galloway")
