@@ -32,3 +32,9 @@ Once lockdown restrictions allowed driving to go for a walk, I expanded my range
 OK so chaffinches are pretty common garden birds, but never in a garden that I've lived in, so unusual for me!
 
 ![Oyster Catchers - Kirkcudbright, Dumfries and Galloway](/images/oyster-catchers-min.jpg "Oyster Catchers - Kirkcudbright, Dumfries and Galloway")
+
+![Curlew - Kirkcudbright, Dumfries and Galloway](/images/curlew-min.jpg "Curlew - Kirkcudbright, Dumfries and Galloway")
+
+Loved this curlew and haven't seen one since. That curved bill will become a regular sighting for me soon in the form of the infamous [Aussie Bin Chickens](https://en.wikipedia.org/wiki/Australian_white_ibis).
+
+![Cormorants - Portpatrick, Dumfries and Galloway](/images/cormorants-min.jpg "Cormorants - Portpatrick, Dumfries and Galloway")
