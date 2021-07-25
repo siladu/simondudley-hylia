@@ -13,23 +13,31 @@ Here's a collection of the slightly more unusual birds I've spotted while out an
 
 The joys of the 2020 Greater Manchester lockdowns meant fairly limited travel, although we managed to visit the Lake District and Scotland in the summer. Moreover, my novice bird spotting and photography abilities contributed to relatively meagre offerings compared to 2021.
 
-Once lockdown restrictions allowed driving to go for a walk, I expanded my range from Stockport to the beautiful Goyt Valley. Here I saw my first Kingfisher but it's a speedy and elusive chap, no chance of a snap!
+Once lockdown restrictions allowed driving to go for a walk, I expanded my range from Stockport to the beautiful Goyt Valley. Here I saw my first **kingfisher** but it's a speedy and elusive chap, no chance of a snap!
+
+Along with the kingfisher, I've spotted a ruffled grey wagtail. I've seen them a few times near rivers but in my experience, they are relatively rare compared to their more common pied wagtail cousins.
 
 ![Grey Wagtail - Goyt Valley](/images/grey-wagtail-min.jpg "Grey Wagtail - Goyt Valley")
 
 ![Juvenile Robin - Goyt Valley](/images/robin-juvenile-min.jpg "Juvenile Robin - Goyt Valley")
 
+This female 'blackcap' actually has a chestnut-coloured head. I have spotted males a few times since but never quite managed to get a shot as clear as this.
+
 ![Blackcap (female) - Goyt Valley](/images/blackcap-female-min.jpg "Blackcap (female) - Goyt Valley")
 
 ![Meadow Pipit - Lake District](/images/meadow-pipit-min.jpg "Meadow Pipit - Lake District")
 
+Spotting my first woodpecker was a real treat. Hard to miss the flash of black, white and red in your peripheral vision!
+
 ![Greater Spotted Woodpecker - Kirkcudbright, Dumfries and Galloway](/images/greater-spotted-woodpecker-min.jpg "Greater Spotted Woodpecker - Kirkcudbright, Dumfries and Galloway")
+
+The camera on auto-focus is not really up to the task of capturing birds in flight. Ocassionally they come out alright, but it takes some patience!
 
 ![Swallow in flight - Caerlaverock Wetland Centre, Dumfries and Galloway](/images/swallow-flight-min.jpg "Swallow in flight - Caerlaverock Wetland Centre, Dumfries and Galloway")
 
-![Chaffinches - Caerlaverock Wetland Centre, Dumfries and Galloway](/images/chaffinches-min.jpg "Chaffinches - Caerlaverock Wetland Centre, Dumfries and Galloway")
 
-OK so chaffinches are pretty common garden birds, but never in a garden that I've lived in, so unusual for me!
+
+![Chaffinches - Caerlaverock Wetland Centre, Dumfries and Galloway](/images/chaffinches-min.jpg "Chaffinches - Caerlaverock Wetland Centre, Dumfries and Galloway")
 
 ![Oyster Catchers - Kirkcudbright, Dumfries and Galloway](/images/oyster-catchers-min.jpg "Oyster Catchers - Kirkcudbright, Dumfries and Galloway")
 
