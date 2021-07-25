@@ -15,7 +15,7 @@ The joys of the 2020 Greater Manchester lockdowns meant fairly limited travel, a
 
 Once lockdown restrictions allowed driving to go for a walk, I expanded my range from Stockport to the beautiful Goyt Valley. Here I saw my first **kingfisher** but it's a speedy and elusive chap, no chance of a snap!
 
-Along with the kingfisher, I've spotted a ruffled grey wagtail. I've seen them a few times near rivers but in my experience, they are relatively rare compared to their more common pied wagtail cousins.
+Along with the kingfisher, I spotted a ruffled grey wagtail. I've seen them a few times near rivers but in my experience, they are relatively rare compared to their more common pied wagtail cousins.
 
 ![Grey Wagtail - Goyt Valley](/images/grey-wagtail-min.jpg "Grey Wagtail - Goyt Valley")
 
