@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: "Birds: The Usual Suspects"
 metaDesc: Local garden birds
-socialImage: /images/starlings-and-pidge.jpg
+socialImage: /images/starlings-and-pidge-min.jpg
 date: 2021-06-20T11:33:47.619Z
 tags:
   - birds
@@ -15,44 +15,44 @@ Beyond observation, my obsession quickly became ‘gotta *capture* ‘em all’ 
 
 I’ll kick off the birding blog with the usual suspects: birds I’ve seen in my Stockport (and more recently Solihull) garden and local area...
 
-![Juvenile Blackbird](/images/blackbird-juvenile.jpg "Blackbird (Juvenile)")
+![Juvenile Blackbird](/images/blackbird-juvenile-min.jpg "Blackbird (Juvenile)")
 
-![Male Blue Tit](/images/bluetit.jpg "Blue Tit")
+![Male Blue Tit](/images/bluetit-min.jpg "Blue Tit")
 
-![Buzzard](/images/buzzard.jpg "Buzzard")
+![Buzzard](/images/buzzard-min.jpg "Buzzard")
 
-![Chiffchaff](/images/chiffchaff.jpg "Chiffchaff")
+![Chiffchaff](/images/chiffchaff-min.jpg "Chiffchaff")
 
-![Collared Dove](/images/collared-dove.jpg "Collared Dove")
+![Collared Dove](/images/collared-dove-min.jpg "Collared Dove")
 
-![Dunnock](/images/dunnock.jpg "Dunnock")
+![Dunnock](/images/dunnock-min.jpg "Dunnock")
 
-![Goldfinch](/images/goldfinch.jpg "Goldfinch")
+![Goldfinch](/images/goldfinch-min.jpg "Goldfinch")
 
-![A pair of Great Tits](/images/great-tits.jpg "A pair of Great Tits")
+![A pair of Great Tits](/images/great-tits-min.jpg "A pair of Great Tits")
 
-![Greenfinch](/images/greenfinch.jpg "Greenfinch")
+![Greenfinch](/images/greenfinch-min.jpg "Greenfinch")
 
-![Heron](/images/heron-roof.jpg "Heron")
+![Heron](/images/heron-roof-min.jpg "Heron")
 
-![Jackdaws](/images/jackdaws.jpg "Jackdaws")
+![Jackdaws](/images/jackdaws-min.jpg "Jackdaws")
 
-![Jay](/images/jay.jpg "Jay")
+![Jay](/images/jay-min.jpg "Jay")
 
-![Long-tailed Tit](/images/longtailedtit.jpg "Long-tailed Tit")
+![Long-tailed Tit](/images/longtailedtit-min.jpg "Long-tailed Tit")
 
-![Magpie in flight](/images/magpie-flight.jpg "Magpie")
+![Magpie in flight](/images/magpie-flight-min.jpg "Magpie")
 
-![Chonky Wood Pigeon](/images/pigeon-chonk.jpg "Wood Pigeon")
+![Chonky Wood Pigeon](/images/pigeon-chonk-min.jpg "Wood Pigeon")
 
-![Robin nest building](/images/robin-leaf.jpg "Robin nest building")
+![Robin nest building](/images/robin-leaf-min.jpg "Robin nest building")
 
-![Starling](/images/starling.jpg "Starling")
+![Starling](/images/starling-min.jpg "Starling")
 
-![House Sparrow](/images/sparrow.jpg "Sparrow")
+![House Sparrow](/images/sparrow-min.jpg "Sparrow")
 
-![Swift](/images/swift.jpg "Swift")
+![Swift](/images/swift-min.jpg "Swift")
 
-![Song Thrush](/images/thrush.jpg "Thrush")
+![Song Thrush](/images/thrush-min.jpg "Thrush")
 
-![Wren](/images/wren-close.jpg "Wren")
+![Wren](/images/wren-close-min.jpg "Wren")
