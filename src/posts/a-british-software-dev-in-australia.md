@@ -21,4 +21,4 @@ Join me as I face my fear of spiders and continue my software development career
 
 This blog will focus on the interesting software problems I encounter as I delve into the rabbit hole that is blockchain and cryptocurrency, as well as an immigrant's perspective of life in Australia. I may throw a few cheeky birding posts in here too.
 
-![Male Bullfinch on garden feeder](/images/bullfinch-min.jpg "Male Bullfinch")
+![Male Bullfinch on garden feeder](/images/bullfinch-min.JPG "Male Bullfinch")
