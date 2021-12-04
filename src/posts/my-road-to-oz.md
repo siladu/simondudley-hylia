@@ -1,6 +1,9 @@
 ---
 layout: layouts/post.njk
 title: "My Road to Oz "
+metaTitle: My Road to Oz
+metaDesc: I'm glad to report that I've now arrived in Australia!
+socialImage: http://www.themovieblog.com/wp-content/uploads/2019/01/wizard-of-oz.04.jpg
 date: 2021-12-04T18:47:33.553Z
 tags:
   - travel
@@ -12,7 +15,7 @@ Currently I'm stuck in Sydney, New South Wales rather than the desired destinati
 I started this blog in June, around the time I untethered myself from a comfortable life in Manchester, UK. I purged a portion of my possessions gathered over the previous 16 years, packed up my chosen valuables and sold my house. Since then me and Lydia have been living in Birmingham with my lovely mom (yes, I spell it the Midlands way which happens to be the same as the American way).
 
 Our decision to emigrate has been many years in the making. The first seed was planted when we visited Lydia's brother in Vancouver in 2013 and an enjoyable holiday morphed into "we could imagine living here". Her brother was only there temporarily and we had no strong connections to Canada so it didn't germinate. \
-The first Australian-borne/bound seed was sown when we visited my sister in Brisbane in 2016 and then again in 2018.
+The first Australian-borne seed was sown when we visited my sister in Brisbane in 2016 and then again in 2018.
 
 The first yellow brick in our road to Oz can be traced back to circa July 2018 when we contacted a migration agent. I applied for a [skilled independant visa](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189), points-tested. We didn't have much hope for success when the agent said:
 
@@ -43,3 +46,5 @@ I got that 2020-esque sinking feeling when they announced two cases were discove
 This left us one day - instead of three - to do the final prep for emigration. In a out-of-body feat of sheer will, we managed to rearrange everything including accommodation, COVID tests, selling my car and packing our 90KG of luggage! The alternative was waiting two more days and potentional being locked out again for weeks or even months.
 
 But we did it...and here I sit on Day three of self-isolation from a hotel next to Sydney airport feeling relief, excitement about the adventure I'm embarking on and now the cartharsis of telling my story.
+
+![Self-isolation selfie](/images/sydney-self-isolation-min.jpg "Self-isolation selfie")
