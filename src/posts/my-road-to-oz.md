@@ -3,8 +3,8 @@ layout: layouts/post.njk
 title: "My Road to Oz "
 metaTitle: My Road to Oz
 metaDesc: I'm glad to report that I've now arrived in Australia!
-socialImage: http://www.themovieblog.com/wp-content/uploads/2019/01/wizard-of-oz.04.jpg
-date: 2021-12-04T18:47:33.553Z
+socialImage: /images/wizard-of-oz.jpg
+date: 2021-12-04T22:30:45.412Z
 tags:
   - travel
 ---
