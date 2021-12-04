@@ -25,7 +25,7 @@ The visa granting process is a bit of a mystery and I won't bore you with the de
 
 The visa process went smoothly and we were elated to be granted the visa in February 2020...one month before COVID-19 rendered the UK locked down. We hadn't planned on emigrating until 2021, but the main concern was getting there for our "Enter before date" to validate the visa, which was February 2021.
 
-We booked a flight to validate the visa and visit in October 2020, which turned out to be right around when the second COVID wave was kicking off. A few days before the flight, we decided to risk of getting stuck outside the UK was too great (ironic in retrospect!) and moved the flight to Feb 2021, just in time to get there for our entry date.
+We booked a flight to validate the visa and visit in October 2020, which turned out to be right around when the second COVID wave was kicking off. A few days before the flight, we decided the risk of getting stuck outside the UK was too great (ironic in retrospect!) and moved the flight to Feb 2021, just in time to get there for our entry date.
 
 Then our flight was cancelled. It was expected given the COVID situation at the time. We rebooked again for October 2021, this time with a reassurance that we definitely had a space reserved in Australian hotel quarantine, so long as there were no further changes to the government restrictions. **Then Delta happened**.
 
@@ -41,10 +41,10 @@ The government also allowed immediate family to visit as well as permenant resid
 
 Upon returning from Europe, we hunkered down in Birmingham doing our best to avoid catching COVID before our flight. **Then Omicron happened**. \
 \
-I got that 2020-esque sinking feeling when they announced two cases were discovered in the UK. Would this mean reintroducing quaratine and therefore passenger caps? The flight was so close, it would have been a truely cruel twist for this to happen again. NSW introduced 72-hour self-isolation for arrivals...eek...then delayed opening the border for certain visa holders...getting nervous now. Fortunately for us, this delay meant more flights opened up and so we made the snap decision to move our flight forward by two days.
+I got that 2020-esque sinking feeling when they announced two cases were discovered in the UK. Would this mean reintroducing quarantine and therefore passenger caps? The flight was so close, it would have been a truely cruel twist for this to happen again. NSW introduced 72-hour self-isolation for arrivals...eek...then delayed opening the border for certain visa holders...getting nervous now. Fortunately for us, this delay meant more flights opened up and so we made the snap decision to move our flight forward by two days.
 
-This left us one day - instead of three - to do the final prep for emigration. In a out-of-body feat of sheer will, we managed to rearrange everything including accommodation, COVID tests, selling my car and packing our 90KG of luggage! The alternative was waiting two more days and potentional being locked out again for weeks or even months.
+This left us one day - instead of three - to do the final prep for emigration. In a out-of-body feat of sheer will, we managed to rearrange everything including accommodation, COVID tests, selling my car and packing our 90KG of luggage! The alternative was waiting two more days and potentionally being locked out again for weeks or even months.
 
-But we did it...and here I sit on Day three of self-isolation from a hotel next to Sydney airport feeling relief, excitement about the adventure I'm embarking on and now the cartharsis of telling my story.
+But we did it...and here I sit on day three of self-isolation from a hotel next to Sydney airport feeling relief, excitement about the adventure I'm embarking on and now the cartharsis of telling my story.
 
 ![Self-isolation selfie](/images/sydney-self-isolation-min.jpg "Self-isolation selfie")
