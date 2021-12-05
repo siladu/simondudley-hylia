@@ -12,7 +12,7 @@ I'm glad to report that I've now arrived in Australia! \
 \
 Currently I'm stuck in Sydney, New South Wales rather than the desired destination of Brisbane, Queensland but I'm basically next door, in Australian terms. The road to get here has been as sinusoidal as the poisonous snakes I hope don't bite me.\
 \
-I started this blog in June, around the time I untethered myself from a comfortable life in Manchester, UK. I purged a portion of my possessions gathered over the previous 16 years, packed up my chosen valuables and sold my house. Since then me and Lydia have been living in Birmingham with my lovely mom (yes, I spell it the Midlands way which happens to be the same as the American way).
+[I started this blog in June](https://www.simondudley.com/posts/a-british-software-dev-in-australia/), around the time I untethered myself from a comfortable life in Manchester, UK. I purged a portion of my possessions gathered over the previous 16 years, packed up my chosen valuables and sold my house. Since then me and Lydia have been living in Birmingham with my lovely mom (yes, I spell it the Midlands way which happens to be the same as the American way).
 
 Our decision to emigrate has been many years in the making. The first seed was planted when we visited Lydia's brother in Vancouver in 2013 and an enjoyable holiday morphed into "we could imagine living here". Her brother was only there temporarily and we had no strong connections to Canada so it didn't germinate. \
 The first Australian-borne seed was sown when we visited my sister in Brisbane in 2016 and then again in 2018.
