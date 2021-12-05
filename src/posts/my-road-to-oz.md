@@ -4,7 +4,7 @@ title: "My Road to Oz "
 metaTitle: My Road to Oz
 metaDesc: I'm glad to report that I've now arrived in Australia!
 socialImage: /images/wizard-of-oz.jpg
-date: 2021-12-04T22:30:45.412Z
+date: 2021-12-05T00:18:53.114Z
 tags:
   - travel
 ---
