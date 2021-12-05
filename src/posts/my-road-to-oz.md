@@ -21,7 +21,7 @@ The first yellow brick in our road to Oz can be traced back to circa July 2018 w
 
 > I've worked in the migration field now for over 30 years and I can honestly say that the current climate is the most difficult in which to try and secure entry into Australia.
 
-The visa granting process is a bit of a mystery and I won't bore you with the details. We estimated that the maximum points I could get was just on the limit of being granted, about 80 points. I was 31 at the time and would lose 5 points once I was 33. This felt like our only chance so we went for it.
+The visa granting process is a bit of a mystery and I won't bore you with the details. We estimated that the maximum points I could get was just on the limit of being granted, 80 points. I was 31 at the time and would lose 5 points once I was 33. This felt like our only chance so we went for it.
 
 The visa process went smoothly and we were elated to be granted the visa in February 2020...one month before COVID-19 rendered the UK locked down. We hadn't planned on emigrating until 2021, but the main concern was getting there for our "Enter before date" to validate the visa, which was February 2021.
 
