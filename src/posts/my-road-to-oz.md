@@ -14,8 +14,7 @@ Currently I'm stuck in Sydney, New South Wales rather than the desired destinati
 \
 [I started this blog in June](https://www.simondudley.com/posts/a-british-software-dev-in-australia/), around the time I untethered myself from a comfortable life in Manchester, UK. I purged a portion of my possessions gathered over the previous 16 years, packed up my chosen valuables and sold my house. Since then me and Lydia have been living in Birmingham with my lovely mom (yes, I spell it the Midlands way which happens to be the same as the American way).
 
-Our decision to emigrate has been many years in the making. The first seed was planted when we visited Lydia's brother in Vancouver in 2013 and an enjoyable holiday morphed into "we could imagine living here". Her brother was only there temporarily and we had no strong connections to Canada so it didn't germinate. \
-The first Australian-borne seed was sown when we visited my sister in Brisbane in 2016 and then again in 2018.
+Our decision to emigrate has been many years in the making. The first seed was planted when we visited Lydia's brother in Vancouver in 2013 and an enjoyable holiday morphed into "we could imagine living here". Her brother was only there temporarily and we had no strong connections to Canada so it didn't germinate. The first Australian-borne seed was sown when we visited my sister in Brisbane in 2016 and then again in 2018.
 
 The first yellow brick in our road to Oz can be traced back to circa July 2018 when we contacted a migration agent. I applied for a [skilled independent visa](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189), points-tested. We didn't have much hope for success when the agent said:
 
