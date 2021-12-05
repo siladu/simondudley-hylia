@@ -37,7 +37,7 @@ The prospect of spending an unplanned winter in limbo in the UK - instead of bei
 
 During a bleary-eyed 5am start in Croatia, I roused to the news that [New South Wales would effectively reopen their international border](https://www.theguardian.com/australia-news/2021/oct/15/australians-will-be-able-to-travel-overseas-by-november-as-scott-morrison-lifts-travel-ban) in November and more flights were now available. I had a few hours before the rest of the UK would be awake and so got to booking another flight! We now had a 3rd December flight to Sydney locked in, with the very real prospect that Queensland would open their border on 17th December, the estimated date when an 80% vaccination rate would be achieved. What's more, we wouldn't have to quarantine in NSW at all, we just had to wait for 14 days before we were allowed to cross into QLD, provided they opened the state border as planned.\
 \
-The government also allowed immediate family to visit as well as permanent residents. My mom would be able to visit my sister and her two young kids for the first time in over two years. The three of us would get the flight together for a proper family reunion - amazing!
+The government also allowed immediate family to visit as well as permanent residents. My mom would be able to visit my sister and her two young kids for the first time in nearly two years. The three of us would get the flight together for a proper family reunion - amazing!
 
 Upon returning from Europe, we hunkered down in Birmingham doing our best to avoid catching COVID before our flight. **Then Omicron happened**. \
 \
