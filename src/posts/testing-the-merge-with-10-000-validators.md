@@ -13,7 +13,7 @@ Besu, Teku and Web3Signer, all being ConsenSys products, is a natural fit for ou
 
 This post will discuss some of the ~~fun that was had~~ technical issues encountered while commissioning such a setup.
 
-# Technical Gotchas
+## 10,000 keys
 
 The easiest way to setup a *single* validator is by using https://goerli.launchpad.ethereum.org.
 The problem with this is that you have to sign each deposit submission in MetaMask. Unless you are a fan of [cookie clicker](http://orteil.dashnet.org/cookieclicker/), you probably don't want to click 10,000 times.
@@ -71,12 +71,14 @@ done
 These files could then be bulk loaded with the appropriate Web3Signer command:
 https://docs.web3signer.consensys.net/en/latest/HowTo/Use-Signing-Keys/#keystore-files
 
+## The Queue 
+
 Keystores uploaded, deposit script at the ready...great, now where do I get Goerli ETH from for 10K validators...that's 10,000 * 32 = 320,000 ETH (worth $500K at the time of writing)...good job it's not real ETH!
 I'll leave how I sourced the testnet ETH as an exercise for the reader ;)
 
 The only thing left to consider was the validator deposit queue. I didn't want to spam the queue with 10,000 validators since validator activation is throttled for security reasons. Doing that could block the queue for a signiciant amount of time, preventing other would-be testers who maybe just wanted to activate a single validator. 
 
-Another factor was how well our test infrastructure would hold up to this many keys. We could do with a steady ramp up which afforded us time to scale up should the need arise. I tentatively started sending batches of 1000 every couple of days. With the 3 second sleep per deposit built into the script, this took about 90 mins per batch.
+Another factor was how well our test infrastructure would hold up to this many keys. We wanted a steady ramp up which afforded us time to scale up should the need arise. I tentatively started sending batches of 1000 every couple of days. With the three second sleep per deposit built into the script, this took about 90 mins per batch.
 
 ```shell
 deposits.sh 0 1000
@@ -84,7 +86,7 @@ deposits.sh 1000 2000
 ...
 ```
 
-The pending validator queue was about 4-5000 when I started this and remaining steady. That meant it would take a few days until the batch was fully activated.
+The pending validator queue was about 5000 when I started sending batches and remaining steady. That meant it would take a few days until the batch was fully activated.
 After a couple of batches, on a Monday morning I discovered another user had done exactly what I tried to avoid: spammed the queue, it was now 15,000+ pending validators, even bigger than the mainnet queue! It would be weeks before all our validators activated now. This is not a job for the impatient!
 
 Once the 10,000 validators finally activated though, it was all the more sweeter for waiting. Our stack coped well with the load. We didn't need to scale out, although following the final 1000 validators, we did need to scale the teku node up slightly from our original instance type due to CPU occasionally maxing out.
