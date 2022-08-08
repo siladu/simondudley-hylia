@@ -3,36 +3,17 @@ layout: layouts/post.njk
 title: Testing The Merge with 10,000 Validators
 date: 2022-08-06T06:18:23.816Z
 ---
-Message: how to setup 10,000 validators on a testnet
+On the verge of [the Goerli merge](https://blog.ethereum.org/2022/07/27/goerli-prater-merge-announcement/), the final Ethereum testnet to be transitioned to proof of stake, I wanted to share how I've been involved in testing our products as a blockchain protocol engineer at ConsenSys.
 
-1. Context: merge, web3signer, teku, besu
-   a. Merge
-   b. w3s+teku+besu stack
-   c. Why 10K
-2. Technical gotchas
-   a. Setting up the keys
-   b. deposit queue
-   c. syncing the clients?
-   d. missed validators
-3. Monitoring
-   a. Logging throttling
-   b. Signature graphs
-   c. Alerts
+If you have no idea what The Merge or even Ethereum is, then [start here](https://ethereum.org/en/upgrades/merge/) (and welcome to the rabbit hole!)
 
-https://ethereum.org/en/upgrades/merge/
+One of the products my team is responsible for is [Web3Signer](https://github.com/ConsenSys/web3signer), an enterprise-ready key management and signing service specialising in the Ethereum proof-of-stake beacon chain.
 
-https://blog.ethereum.org/2022/07/27/goerli-prater-merge-announcement/
+Web3Signer is an addition to an Ethereum consensus layer client, for example [Teku](https://github.com/ConsenSys/teku). We need a consensus client in order to meaningfully test Web3Signer. In the context of The Merge, and in a post-merge system, we also need an execution layer client such as [Besu](https://github.com/hyperledger/besu).
 
-https://goerli.launchpad.ethereum.org/en/
+Besu, Teku and Web3Signer all being ConsenSys products, this is a natural fit for our test stack. Since Web3Signer is designed to support institutional stakers, we chose 10,000 keys as a reasonably large but realistic sized deployment that reflected some known customer setups.
 
-https://docs.web3signer.consensys.net/en/latest/
-
-* goerli eth
-* teku with initial state from infura
-* synching besu, bonsai
-* eth2-val-tools keystores --source-mnemonic "${VALIDATORS_MNEMONIC}" --source-min 0 --source-max 3 --insecure --out-loc generated-keys
-* ulimit -n 65536
-* devnet_deposits.sh 2000 3000
+This post will discuss some of the technical issues encountered while commissioning such a setup.
 
 # Technical Gotchas
 
