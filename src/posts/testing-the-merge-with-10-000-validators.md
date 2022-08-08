@@ -7,13 +7,11 @@ On the verge of [the Goerli merge](https://blog.ethereum.org/2022/07/27/goerli-p
 
 If you have no idea what The Merge or even Ethereum is, then [start here](https://ethereum.org/en/upgrades/merge/) (and welcome to the rabbit hole!)
 
-One of the products my team is responsible for is [Web3Signer](https://github.com/ConsenSys/web3signer), an enterprise-ready key management and signing service specialising in the Ethereum proof-of-stake beacon chain.
+One of the products my team is responsible for is [Web3Signer](https://github.com/ConsenSys/web3signer), an enterprise-ready key management and signing service specialising in the Ethereum proof-of-stake beacon chain. Web3Signer is an addition to an Ethereum consensus layer client, for example [Teku](https://github.com/ConsenSys/teku). We need a consensus client in order to meaningfully test Web3Signer. In the context of The Merge, and in a post-merge system, we also need an execution layer client such as [Besu](https://github.com/hyperledger/besu).
 
-Web3Signer is an addition to an Ethereum consensus layer client, for example [Teku](https://github.com/ConsenSys/teku). We need a consensus client in order to meaningfully test Web3Signer. In the context of The Merge, and in a post-merge system, we also need an execution layer client such as [Besu](https://github.com/hyperledger/besu).
+Besu, Teku and Web3Signer, all being ConsenSys products, is a natural fit for our test stack. Since Web3Signer is designed to support institutional stakers, we chose 10,000 keys as a reasonably large but realistic sized deployment that reflected some known customer setups.
 
-Besu, Teku and Web3Signer all being ConsenSys products, this is a natural fit for our test stack. Since Web3Signer is designed to support institutional stakers, we chose 10,000 keys as a reasonably large but realistic sized deployment that reflected some known customer setups.
-
-This post will discuss some of the technical issues encountered while commissioning such a setup.
+This post will discuss some of the ~~fun that was had~~ technical issues encountered while commissioning such a setup.
 
 # Technical Gotchas
 
