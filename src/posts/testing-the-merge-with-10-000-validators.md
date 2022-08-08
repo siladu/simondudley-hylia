@@ -45,7 +45,7 @@ https://hackmd.io/dFzKxB3ISWO8juUqPpJFfw#Creating-a-validator-deposit
 In addition to the instructions in the post you also need to actually output the validator keys so they can be uploaded to the validator client or in our case Web3Signer. 
 
 The following command should achieve this:
-`eth2-val-tools keystores --source-mnemonic "${VALIDATORS_MNEMONIC}" --source-min 0 --source-max 10000 --insecure --out-loc generated-keys`
+`eth2-val-tools keystores --source-mnemonic "..." --source-min 0 --source-max 10000 --insecure --out-loc generated-keys`
 
 But you very quickly run into a "too many open files" error. My default ulimit is 256 file descriptors, so let's up that: 
 `ulimit -n 65536`
@@ -106,14 +106,20 @@ deposits.sh 1000 2000
 The pending validator queue was about 4-5000 when I started this and remaining steady. That meant it would take a few days until the batch was fully activated.
 After a couple of batches, on a Monday morning I discovered another user had done exactly what I tried to avoid: spammed the queue, it was now 15,000+ pending validators, even bigger than the mainnet queue! It would be weeks before all our validators activated now. This is not a job for the impatient!
 
+Once the 10,000 validators finally activated though, it was all the more sweeter for waiting. It turned out that our stack could cope pretty well. We didn't need to scale out, although we did need to scale the teku node up slightly from our original instance type due to CPU occasionally maxing out. 
+
+For those familiar with AWS lingo, our final merge-ready setup was _besu_ on a __t3.xlarge__, _teku_ on a __c6a.2xlarge__ and _web3signer_ on a __t3.large__. We know from experience with other testnet setups that besu and teku can be combined onto one instance.
+
+
 ### Postscript
 
-After running the script - post-script if you will - our teku metrics were showing 24 validators with a status of "UNKNOWN". This means that they never made it into the deposit contract. This can be verified by seeing if this RPC returns a result or a 404:
+After running the deposit script ten times - post-script if you will - our teku metrics were showing 24 validators with a status of "UNKNOWN". This means that they never made it into the deposit contract. This can be verified by seeing if this RPC returns a result or a 404:
 ```shell
 curl http://localhost:5051/eth/v1/beacon/states/head/validators/<publickey>
 ```
 
-Bash to the rescue again to write a simple script to generate the keys and call curl for each. _eth2-val-tools_ has this convenience function for simply printing out the public keys:
+I put this down to long-running script times making it hard to spot what was probably a network disconnection. Bash to the rescue again to write a simple script to generate the keys and call curl for each key. 
+_eth2-val-tools_ has this convenience function for simply printing out the public keys:
 ```shell
 eth2-val-tools pubkeys --source-min 0 --source-max=10000 --validators-mnemonic "..."
 ```
