@@ -108,9 +108,9 @@ deposits.sh 1000 2000
 The pending validator queue was about 4-5000 when I started this and remaining steady. That meant it would take a few days until the batch was fully activated.
 After a couple of batches, on a Monday morning I discovered another user had done exactly what I tried to avoid: spammed the queue, it was now 15,000+ pending validators, even bigger than the mainnet queue! It would be weeks before all our validators activated now. This is not a job for the impatient!
 
-Once the 10,000 validators finally activated though, it was all the more sweeter for waiting. It turned out that our stack could cope pretty well. We didn't need to scale out, although we did need to scale the teku node up slightly from our original instance type due to CPU occasionally maxing out. 
+Once the 10,000 validators finally activated though, it was all the more sweeter for waiting. Our stack coped well with the load. We didn't need to scale out, although following the final 1000 validators, we did need to scale the teku node up slightly from our original instance type due to CPU occasionally maxing out.
 
-For those familiar with AWS lingo, our final merge-ready setup was *besu* on a **t3.xlarge**, *teku* on a **c6a.2xlarge** and *web3signer* on a **t3.large**. We know from experience with other testnet setups that besu and teku can be combined onto one instance.
+For those familiar with AWS lingo, our final merge-ready setup was *besu* on a **t3.xlarge**, *teku* on a **c6a.2xlarge** and *web3signer* on a **t3.large**. We know from experience with other testnet setups that besu and teku live quite happily together on one instance.
 
 ### Postscript
 
@@ -120,7 +120,7 @@ After running the deposit script ten times - post-script if you will - our teku 
 curl http://localhost:5051/eth/v1/beacon/states/head/validators/<publickey>
 ```
 
-I put this down to long-running script times making it hard to spot what was probably a network disconnection. Bash to the rescue again to write a simple script to generate the keys and call curl for each key. 
+I put the stray 24 keys down to long-running script times making it hard to spot what was probably a network disconnection. Bash to the rescue again to write a simple script to generate the keys and call curl for each key. 
 *eth2-val-tools* has this convenience function for simply printing out the public keys:
 
 ```shell
