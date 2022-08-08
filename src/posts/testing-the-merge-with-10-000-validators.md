@@ -6,18 +6,18 @@ date: 2022-08-06T06:18:23.816Z
 Message: how to setup 10,000 validators on a testnet
 
 1. Context: merge, web3signer, teku, besu
- a. Merge
- b. w3s+teku+besu stack
- c. Why 10K
+   a. Merge
+   b. w3s+teku+besu stack
+   c. Why 10K
 2. Technical gotchas
- a. Setting up the keys
- b. deposit queue
- c. syncing the clients?
- d. missed validators
+   a. Setting up the keys
+   b. deposit queue
+   c. syncing the clients?
+   d. missed validators
 3. Monitoring
- a. Logging throttling
- b. Signature graphs
- c. Alerts
+   a. Logging throttling
+   b. Signature graphs
+   c. Alerts
 
 https://ethereum.org/en/upgrades/merge/
 
@@ -26,7 +26,6 @@ https://blog.ethereum.org/2022/07/27/goerli-prater-merge-announcement/
 https://goerli.launchpad.ethereum.org/en/
 
 https://docs.web3signer.consensys.net/en/latest/
-
 
 * goerli eth
 * teku with initial state from infura
@@ -37,7 +36,7 @@ https://docs.web3signer.consensys.net/en/latest/
 
 # Technical Gotchas
 
-The easiest way to setup a _single_ validator is by using https://goerli.launchpad.ethereum.org.
+The easiest way to setup a *single* validator is by using https://goerli.launchpad.ethereum.org.
 The problem with this is that you have to sign each deposit submission in MetaMask. Unless you are a fan of [cookie clicker](http://orteil.dashnet.org/cookieclicker/), you probably don't want to click 10,000 times.
 
 I got pointed to this post which shows how you can script a deposit with [eth2-val-tools](https://github.com/protolambda/eth2-val-tools): 
@@ -55,16 +54,16 @@ Ha ok, now there's multiple pages of very painful looking Go stacktraces and my 
 
 Let's look at what files are being output:
 
-```
+```shell
 $ ls generated-keys-insecure
-keys             lodestar-secrets nimbus-keys      prysm            pubkeys.json     secrets          teku-keys        teku-secrets
+keys lodestar-secrets nimbus-keys prysm pubkeys.json secrets teku-keys teku-secrets
 ```
 
-eth2-val-tools in its benevolent convenience outputs a variety of client-friendly output formats. Web3Signer is great friends with teku, so it makes sense to reuse the teku format: a list of keystores and associated password files. After a successful hack involving commenting out non-teku related code in eth2-val-tools, I could generate the files in two batches of 5000. However, I decided for a slightly more robust and repeatable solution.
+_eth2-val-tools_ in its benevolent convenience outputs a variety of client-friendly output formats. Web3Signer is great friends with teku, so it makes sense to reuse the teku format: a list of keystores and associated password files. After a successful hack involving commenting out non-teku related code in eth2-val-tools, I could generate the files in two batches of 5000. However, I decided for a slightly more robust and repeatable solution.
 
 The biggest batch I could generate without hacking the code was 1000. I created a script to generate these smaller batches and stitch them together. I wanted this to work for any number of keys, not specifically 10,000 which wasn't quite as trivial as I first imagined. Here's the crux of what I ended up with:
 
-```
+```shell
 # eth2-val-tools cannot handle creating more than 1000 keys worth of files in one run
 MAX_SLICE=1000
 for ((SLICE_START = SOURCE_MIN;
@@ -94,3 +93,27 @@ https://docs.web3signer.consensys.net/en/latest/HowTo/Use-Signing-Keys/#keystore
 Keystores uploaded, deposit script at the ready...great, now where do I get Goerli ETH from for 10K validators...that's 10,000 * 32 = 320,000 ETH (worth $500K at the time of writing)...good job it's not real ETH!
 I'll leave how I sourced the testnet ETH as an exercise for the reader ;)
 
+The only thing left to consider was the validator deposit queue. I didn't want to spam the queue with 10,000 validators since validator activation is throttled for security reasons. Doing that could block the queue for a signiciant amount of time, preventing other would-be testers who maybe just wanted to activate a single validator. 
+
+Another factor was how well our test infrastructure would hold up to this many keys. We could do with a steady ramp up which afforded us time to scale up should the need arise. I tentatively started sending batches of 1000 every couple of days. With the 3 second sleep per deposit built into the script, this took about 90 mins per batch.
+
+```shell
+deposits.sh 0 1000
+deposits.sh 1000 2000
+...
+```
+
+The pending validator queue was about 4-5000 when I started this and remaining steady. That meant it would take a few days until the batch was fully activated.
+After a couple of batches, on a Monday morning I discovered another user had done exactly what I tried to avoid: spammed the queue, it was now 15,000+ pending validators, even bigger than the mainnet queue! It would be weeks before all our validators activated now. This is not a job for the impatient!
+
+### Postscript
+
+After running the script - post-script if you will - our teku metrics were showing 24 validators with a status of "UNKNOWN". This means that they never made it into the deposit contract. This can be verified by seeing if this RPC returns a result or a 404:
+```shell
+curl http://localhost:5051/eth/v1/beacon/states/head/validators/<publickey>
+```
+
+Bash to the rescue again to write a simple script to generate the keys and call curl for each. _eth2-val-tools_ has this convenience function for simply printing out the public keys:
+```shell
+eth2-val-tools pubkeys --source-min 0 --source-max=10000 --validators-mnemonic "..."
+```
