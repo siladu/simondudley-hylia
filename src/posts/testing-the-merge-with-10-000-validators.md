@@ -28,7 +28,7 @@ In addition to the instructions in the post you also need to output the validato
 The following command should achieve this:
 `eth2-val-tools keystores --source-mnemonic "..." --source-min 0 --source-max 10000 --insecure --out-loc generated-keys`
 
-> A note about --insecure: this was a testnet-only convenience we allowed ourselves to reduce the time it takes to decrypt the keys as they are loaded into web3signer upon startup
+> A note about --insecure: this was a testnet-only convenience we allowed ourselves to reduce the time it takes to decrypt the keys as they are loaded into Web3Signer upon startup
 
 Attempting to generate 10,000 keys like this, you will quickly run into a "too many open files" error. My default ulimit is 256 file descriptors, so let's up that: 
 `ulimit -n 65536`
@@ -91,7 +91,7 @@ deposits.sh 1000 2000
 When I started sending batches the pending validator queue was about 5000 and remained steady. That meant it would take a few days until the batch was fully activated.
 After a couple of batches, on a Monday morning I discovered another user had done exactly what I tried to avoid: spammed the queue, it was now 15,000+ pending validators, even bigger than the mainnet queue! It would be weeks before all our validators activated now. This is not a job for the impatient!
 
-Once the 10,000 validators finally activated though, it was all the sweeter for waiting. Our stack coped well with the load. We didn't need to scale out, although following the final 1000 validators, we did need to scale the teku node up slightly from our original instance type due to CPU occasionally maxing out.
+Once the 10,000 validators finally activated though, it was all the sweeter for waiting. Our stack coped well with the load. We didn't need to scale out, although following the final 1000 validators, we did need to scale the Teku node up slightly from our original instance type due to CPU occasionally maxing out.
 
 For those familiar with AWS lingo, our final merge-ready setup was *Besu* on a **t3.xlarge**, *Teku* on a **c6a.2xlarge** and *Web3Signer* on a **t3.large**. We know from experience with other testnet setups that Besu and Teku live quite happily together on one instance.
 
