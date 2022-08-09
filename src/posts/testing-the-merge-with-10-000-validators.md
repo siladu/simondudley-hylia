@@ -29,7 +29,7 @@ https://hackmd.io/dFzKxB3ISWO8juUqPpJFfw#Creating-a-validator-deposit
 In addition to the instructions in the post you also need to output the validator keys that are derived from your mnemonic so they can be uploaded to the validator client, or in our case Web3Signer. 
 
 The following command should achieve this:
-```sh
+```bash
 eth2-val-tools keystores --source-mnemonic "..." \
   --source-min 0 --source-max 10000 \
   --insecure --out-loc generated-keys
