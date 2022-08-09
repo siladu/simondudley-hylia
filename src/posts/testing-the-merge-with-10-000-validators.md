@@ -106,6 +106,6 @@ curl http://localhost:5051/eth/v1/beacon/states/head/validators/<publickey>
 I put the stray 24 keys down to long-running script times making it hard to spot what was probably a network disconnection. Bash to the rescue again to write a simple script to generate the keys and call curl for each key. 
 *eth2-val-tools* has this convenience function for simply printing out the public keys:
 
-```shell
+```
 eth2-val-tools pubkeys --source-min 0 --source-max=10000 --validators-mnemonic "..."
 ```
