@@ -4,6 +4,9 @@ title: Testing The Merge with 10,000 Validators
 date: 2022-08-09T03:20:35.332Z
 tags:
   - dev
+  - ethereum
+  - blockchain
+  - merge
 ---
 On the verge of [the Goerli merge](https://blog.ethereum.org/2022/07/27/goerli-prater-merge-announcement/), the final Ethereum testnet to be transitioned to proof-of-stake, I wanted to share how I've been involved in testing our products as a blockchain protocol engineer at ConsenSys.
 
@@ -26,7 +29,11 @@ https://hackmd.io/dFzKxB3ISWO8juUqPpJFfw#Creating-a-validator-deposit
 In addition to the instructions in the post you also need to output the validator keys that are derived from your mnemonic so they can be uploaded to the validator client, or in our case Web3Signer. 
 
 The following command should achieve this:
-`eth2-val-tools keystores --source-mnemonic "..." --source-min 0 --source-max 10000 --insecure --out-loc generated-keys`
+```css
+eth2-val-tools keystores --source-mnemonic "..." \
+  --source-min 0 --source-max 10000 \
+  --insecure --out-loc generated-keys
+```
 
 > A note about --insecure: this was a testnet-only convenience we allowed ourselves to reduce the time it takes to decrypt the keys as they are loaded into Web3Signer upon startup
 
@@ -37,16 +44,17 @@ Ha ok, now there's multiple pages of very painful-looking Go stacktraces and my 
 
 Let's look at what files are being output:
 
-```
+```css
 $ ls generated-keys-insecure
-keys lodestar-secrets nimbus-keys prysm pubkeys.json secrets teku-keys teku-secrets
+keys lodestar-secrets nimbus-keys prysm 
+pubkeys.json secrets teku-keys teku-secrets
 ```
 
 *eth2-val-tools* in its benevolent convenience outputs a variety of client-friendly output formats. Web3Signer is great friends with Teku, so it makes sense to reuse the Teku format: a list of keystores and associated password files. After a successful hack involving commenting out code unrelated to the Teku output in eth2-val-tools, I could generate the files in two batches of 5000. However, I decided on a slightly more robust and repeatable solution.
 
 The biggest batch I could generate without hacking the code was 1000. I created a script to generate these smaller batches and stitch them together. I wanted this to work for any number of keys, not specifically 10,000 which wasn't quite as trivial as I first imagined. Here's the crux of what I ended up with:
 
-```
+```css
 # eth2-val-tools cannot handle creating more than 1000 keys worth of files in one run
 MAX_SLICE=1000
 for ((SLICE_START = SOURCE_MIN;
@@ -82,7 +90,7 @@ The only thing left to consider was the validator deposit queue. I didn't want t
 
 Another factor was how well our test infrastructure would hold up to this many keys. We wanted a steady ramp up which afforded us time to scale up should the need arise. I tentatively started sending batches of 1000 every couple of days. With the three-second sleep per deposit built into the script, this took about 90 minutes per batch.
 
-```
+```css
 deposits.sh 0 1000
 deposits.sh 1000 2000
 ...
@@ -99,13 +107,14 @@ For those familiar with AWS lingo, our final merge-ready setup was *Besu* on a *
 
 After running the deposit script ten times - post-script if you will - our Teku metrics were showing 24 validators with a status of "UNKNOWN". This means that they never made it into the deposit contract. This can be verified by seeing if this RPC returns a result or a 404:
 
-```
+```css
 curl http://localhost:5051/eth/v1/beacon/states/head/validators/<publickey>
 ```
 
 I put the stray 24 keys down to long-running script times making it hard to spot what was probably a network disconnection. Bash to the rescue again to write a simple script to generate the keys and call curl for each key. 
 *eth2-val-tools* has this convenience function for simply printing out the public keys:
 
-```
-eth2-val-tools pubkeys --source-min 0 --source-max=10000 --validators-mnemonic "..."
+```css
+eth2-val-tools pubkeys --source-min 0 --source-max=10000 \
+  --validators-mnemonic "..."
 ```
