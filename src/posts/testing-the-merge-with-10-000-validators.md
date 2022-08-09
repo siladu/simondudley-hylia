@@ -4,10 +4,6 @@ title: Testing The Merge with 10,000 Validators
 date: 2022-08-09T03:20:35.332Z
 tags:
   - dev
-  - blockchain
-  - ethereum
-  - merge
-  - proof-of-stake
 ---
 On the verge of [the Goerli merge](https://blog.ethereum.org/2022/07/27/goerli-prater-merge-announcement/), the final Ethereum testnet to be transitioned to proof-of-stake, I wanted to share how I've been involved in testing our products as a blockchain protocol engineer at ConsenSys.
 
@@ -41,7 +37,7 @@ Ha ok, now there's multiple pages of very painful-looking Go stacktraces and my 
 
 Let's look at what files are being output:
 
-```shell
+```
 $ ls generated-keys-insecure
 keys lodestar-secrets nimbus-keys prysm pubkeys.json secrets teku-keys teku-secrets
 ```
@@ -50,7 +46,7 @@ keys lodestar-secrets nimbus-keys prysm pubkeys.json secrets teku-keys teku-secr
 
 The biggest batch I could generate without hacking the code was 1000. I created a script to generate these smaller batches and stitch them together. I wanted this to work for any number of keys, not specifically 10,000 which wasn't quite as trivial as I first imagined. Here's the crux of what I ended up with:
 
-```shell
+```
 # eth2-val-tools cannot handle creating more than 1000 keys worth of files in one run
 MAX_SLICE=1000
 for ((SLICE_START = SOURCE_MIN;
@@ -86,7 +82,7 @@ The only thing left to consider was the validator deposit queue. I didn't want t
 
 Another factor was how well our test infrastructure would hold up to this many keys. We wanted a steady ramp up which afforded us time to scale up should the need arise. I tentatively started sending batches of 1000 every couple of days. With the three-second sleep per deposit built into the script, this took about 90 minutes per batch.
 
-```shell
+```
 deposits.sh 0 1000
 deposits.sh 1000 2000
 ...
@@ -103,7 +99,7 @@ For those familiar with AWS lingo, our final merge-ready setup was *Besu* on a *
 
 After running the deposit script ten times - post-script if you will - our Teku metrics were showing 24 validators with a status of "UNKNOWN". This means that they never made it into the deposit contract. This can be verified by seeing if this RPC returns a result or a 404:
 
-```shell
+```
 curl http://localhost:5051/eth/v1/beacon/states/head/validators/<publickey>
 ```
 
