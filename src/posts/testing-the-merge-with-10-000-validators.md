@@ -4,6 +4,10 @@ title: Testing The Merge with 10,000 Validators
 date: 2022-08-09T03:20:35.332Z
 tags:
   - dev
+  - blockchain
+  - ethereum
+  - merge
+  - proof-of-stake
 ---
 On the verge of [the Goerli merge](https://blog.ethereum.org/2022/07/27/goerli-prater-merge-announcement/), the final Ethereum testnet to be transitioned to proof-of-stake, I wanted to share how I've been involved in testing our products as a blockchain protocol engineer at ConsenSys.
 
