@@ -39,7 +39,9 @@ eth2-val-tools keystores --source-mnemonic "..." \
 > A note about --insecure: this was a testnet-only convenience we allowed ourselves to reduce the time it takes to decrypt the keys as they are loaded into Web3Signer upon startup
 
 Attempting to generate 10,000 keys like this, you will quickly run into a "too many open files" error. My default ulimit is 256 file descriptors, so let's up that: 
-`ulimit -n 65536`
+```bash
+ulimit -n 65536
+```
 
 Ha ok, now there's multiple pages of very painful-looking Go stacktraces and my Go-fu is too poor to debug what appears to be an issue with parallel processing.
 
