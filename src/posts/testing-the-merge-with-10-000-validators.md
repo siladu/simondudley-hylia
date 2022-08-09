@@ -24,7 +24,7 @@ The easiest way to set up a *single* validator is by using https://goerli.launch
 The problem with this is that you have to sign each deposit submission in MetaMask. Unless you're a fan of [Cookie Clicker](http://orteil.dashnet.org/cookieclicker/), you probably don't want to click 10,000 times.
 
 I got pointed to this post which shows how you can script a deposit with [eth2-val-tools](https://github.com/protolambda/eth2-val-tools): 
-https://hackmd.io/dFzKxB3ISWO8juUqPpJFfw#Creating-a-validator-deposit
+[https://hackmd.io/dFzKxB3ISWO8juUqPpJFfw#Creating-a-validator-deposit](https://hackmd.io/dFzKxB3ISWO8juUqPpJFfw#Creating-a-validator-deposit)
 
 In addition to the instructions in the post you also need to output the validator keys that are derived from your mnemonic so they can be uploaded to the validator client, or in our case Web3Signer. 
 
@@ -82,7 +82,7 @@ done
 ```
 
 These files could then be bulk loaded with the appropriate Web3Signer command:
-https://docs.web3signer.consensys.net/en/latest/HowTo/Use-Signing-Keys/#keystore-files
+[https://docs.web3signer.consensys.net/en/latest/HowTo/Use-Signing-Keys/#keystore-files](https://docs.web3signer.consensys.net/en/latest/HowTo/Use-Signing-Keys/#keystore-files)
 
 ## The Queue
 
