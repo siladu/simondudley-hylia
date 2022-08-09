@@ -29,6 +29,7 @@ https://hackmd.io/dFzKxB3ISWO8juUqPpJFfw#Creating-a-validator-deposit
 In addition to the instructions in the post you also need to output the validator keys that are derived from your mnemonic so they can be uploaded to the validator client, or in our case Web3Signer. 
 
 The following command should achieve this:
+
 ```bash
 eth2-val-tools keystores --source-mnemonic "..." \
   --source-min 0 --source-max 10000 \
@@ -44,7 +45,7 @@ Ha ok, now there's multiple pages of very painful-looking Go stacktraces and my 
 
 Let's look at what files are being output:
 
-```css
+```bash
 $ ls generated-keys-insecure
 keys lodestar-secrets nimbus-keys prysm 
 pubkeys.json secrets teku-keys teku-secrets
@@ -54,7 +55,7 @@ pubkeys.json secrets teku-keys teku-secrets
 
 The biggest batch I could generate without hacking the code was 1000. I created a script to generate these smaller batches and stitch them together. I wanted this to work for any number of keys, not specifically 10,000 which wasn't quite as trivial as I first imagined. Here's the crux of what I ended up with:
 
-```css
+```bash
 # eth2-val-tools cannot handle creating more than 1000 keys worth of files in one run
 MAX_SLICE=1000
 for ((SLICE_START = SOURCE_MIN;
@@ -81,7 +82,7 @@ done
 These files could then be bulk loaded with the appropriate Web3Signer command:
 https://docs.web3signer.consensys.net/en/latest/HowTo/Use-Signing-Keys/#keystore-files
 
-## The Queue 
+## The Queue
 
 Keystores uploaded, deposit script at the ready...great, now where do I get Goerli ETH from for 10K validators...that's 10,000 * 32 = 320,000 ETH (worth $500K at the time of writing)...good job it's not real ETH!
 I'll leave how I sourced the testnet ETH as an exercise for the reader ;)
@@ -90,9 +91,9 @@ The only thing left to consider was the validator deposit queue. I didn't want t
 
 Another factor was how well our test infrastructure would hold up to this many keys. We wanted a steady ramp up which afforded us time to scale up should the need arise. I tentatively started sending batches of 1000 every couple of days. With the three-second sleep per deposit built into the script, this took about 90 minutes per batch.
 
-```css
-deposits.sh 0 1000
-deposits.sh 1000 2000
+```bash
+./deposits.sh 0 1000
+./deposits.sh 1000 2000
 ...
 ```
 
@@ -107,14 +108,14 @@ For those familiar with AWS lingo, our final merge-ready setup was *Besu* on a *
 
 After running the deposit script ten times - post-script if you will - our Teku metrics were showing 24 validators with a status of "UNKNOWN". This means that they never made it into the deposit contract. This can be verified by seeing if this RPC returns a result or a 404:
 
-```css
+```bash
 curl http://localhost:5051/eth/v1/beacon/states/head/validators/<publickey>
 ```
 
 I put the stray 24 keys down to long-running script times making it hard to spot what was probably a network disconnection. Bash to the rescue again to write a simple script to generate the keys and call curl for each key. 
 *eth2-val-tools* has this convenience function for simply printing out the public keys:
 
-```css
+```bash
 eth2-val-tools pubkeys --source-min 0 --source-max=10000 \
   --validators-mnemonic "..."
 ```
