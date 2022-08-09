@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Testing The Merge with 10,000 Validators
-date: 2022-08-06T06:18:23.816Z
+date: 2022-08-09T03:20:35.332Z
 tags:
   - dev
 ---
