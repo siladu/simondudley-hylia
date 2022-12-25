@@ -42,3 +42,13 @@ I’m living in suburbia paradiso surrounded by *Geckos*, *Skinks*, *Orb Weavers
 ![Kookaburras next door](/images/kookas-min.jpg "Kookaburras next door")
 
 ![Bush Stone Curlews aka "Thick Knees"](/images/stone-curlew-min.jpg "Bush Stone Curlews aka \"Thick Knees\"")
+
+![Most easterly point of the Australian mainland (Cape Byron)](/images/eastern-point-min.jpg "Most easterly point of the Australian mainland (Cape Byron)")
+
+![Chrissie in the summer](/images/christmas-lights-min.jpg "Chrissie in the summer")
+
+![Satellite image of the 'Rain Bomb' in February](/images/rain-radar-min.png "The February Rain Bomb")
+
+![A Land Cruiser submerged in flood water](/images/flooded-landy-min.jpg "Land Cruiser or Croc?")
+
+![A purple Jacaranda in full bloom against a blue sky and Brisbane skyline](/images/jacaranda-min.jpg "Jacaranda at New Farm Park")
