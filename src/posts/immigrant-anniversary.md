@@ -1,11 +1,14 @@
 ---
 layout: layouts/post.njk
 title: Immigrant Anniversary
+socialImage: /images/brissie-min.jpg
 date: 2022-12-11T07:49:55.095Z
 tags:
   - travel
 ---
 So much happened. It was a big year, an experience I wouldn’t change for all the tea in England…time to take a breath...
+
+![Brisbane at twilight](/images/brissie-min.jpg "Brisbane at twilight")
 
 arriving: tail end of covid, *Sydney* quarantine, covid on plane so more quarantine: seven days but balcony at least, balcony to put to the giant roach out onto. first big bug experience first of many, many legs crawling especially in the summer: it’s december start of the summer start of a new hot life? quite cold actually why is it cold? rent big car check for big bugs drive north: under the *Harbour Bridge* to *Coffs Harbour* six hours - *Too Easy* - still *New South Wales* still cold cold like wales well not like wales but not like the pictures of beach and sea and sun and surf and so long *Sydney* I haven’t seen you again.
 
@@ -27,3 +30,7 @@ cold winter more rain not the winter that was promised but still get sunburnt. i
 *Australian*-made a big deal here *Real Estate* a big deal here (local agent sponsors the school oval and name plastered on every bus stop) *Bunnings* is a big deal here it’s a suped-up B&Q (plus BBQ aka *Sausage Sizzle*). cars are a big deal here. sometimes you could be in america, sometimes in england, but it’s the flora that soon gives it away the skinny wiggles of the *Eucalyptus* and the towering *Epiphytes*. *Seasonal* foods good tomatoes...*Mango Season*: *Kensington Pride*, *R2E2*, *Honey Gold*, *Calypso*. october november is *Jacaranda* season not native trees but a dazzling display of purple-blue blooms.
 
 I’m living in suburbia paradiso surrounded by *Geckos*, *Skinks*, *Orb Weavers*, *Huntsman*, *Cane Toads*, *Possums*, *Mud Wasps*, *Flying Foxes* and I love it.
+
+![Look At Me Now Headland walk near Coffs Harbour](/images/look-at-me-now-headland-walk-min.jpg "Look At Me Now Headland walk near Coffs Harbour")
+
+![Blue-Tongued Lizard](/images/blue-tongued-lizard-min.jpg "Blue-Tongued Lizard")
