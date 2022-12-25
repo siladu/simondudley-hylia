@@ -38,3 +38,7 @@ I’m living in suburbia paradiso surrounded by *Geckos*, *Skinks*, *Orb Weavers
 ![](/images/straddie-roo-min.jpg "Roo traffic at Minjerribah (North Stradbroke Island)")
 
 ![Rainbow Lorikeet](/images/lorikeet-min.jpg "Rainbow Lorikeet")
+
+![Kookaburras next door](/images/kookas-min.jpg "Kookaburras next door")
+
+![Bush Stone Curlews aka "Thick Knees"](/images/stone-curlew-min.jpg "Bush Stone Curlews aka \"Thick Knees\"")
