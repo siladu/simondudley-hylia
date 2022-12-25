@@ -36,3 +36,5 @@ I’m living in suburbia paradiso surrounded by *Geckos*, *Skinks*, *Orb Weavers
 ![Blue-Tongued Lizard](/images/blue-tongued-lizard-min.jpg "Blue-Tongued Lizard")
 
 ![](/images/straddie-roo-min.jpg "Roo traffic at Minjerribah (North Stradbroke Island)")
+
+![Rainbow Lorikeet](/images/lorikeet-min.jpg "Rainbow Lorikeet")
