@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Immigrant Anniversary
+metaTitle: Immigrant Anniversary - My first year in Australia
+metaDesc: My first year in Australia
 socialImage: /images/brissie-min.jpg
 date: 2022-12-11T07:49:55.095Z
 tags:
@@ -8,7 +10,7 @@ tags:
 ---
 So much happened. It was a big year, an experience I wouldn’t change for all the tea in England…time to take a breath...
 
-![Brisbane at twilight](/images/brissie-min.jpg "Brisbane at twilight")
+![Brisbane skyline at twilight](/images/brissie-min.jpg "Brisbane at twilight")
 
 arriving: tail end of covid, *Sydney* quarantine, covid on plane so more quarantine: seven days but balcony at least, balcony to put to the giant roach out onto. first big bug experience first of many, many legs crawling especially in the summer: it’s december start of the summer start of a new hot life? quite cold actually why is it cold? rent big car check for big bugs drive north: under the *Harbour Bridge* to *Coffs Harbour* six hours - *Too Easy* - still *New South Wales* still cold cold like wales well not like wales but not like the pictures of beach and sea and sun and surf and so long *Sydney* I haven’t seen you again.
 
@@ -31,21 +33,21 @@ cold winter more rain not the winter that was promised but still get sunburnt. i
 
 I’m living in suburbia paradiso surrounded by *Geckos*, *Skinks*, *Orb Weavers*, *Huntsman*, *Cane Toads*, *Possums*, *Mud Wasps*, *Flying Foxes* and I love it.
 
-![Look At Me Now Headland walk near Coffs Harbour](/images/look-at-me-now-headland-walk-min.jpg "Look At Me Now Headland walk near Coffs Harbour")
+![Kangaroos lounging against the coastal backdrop on Look At Me Now Headland walk near Coffs Harbour](/images/look-at-me-now-headland-walk-min.jpg "Look At Me Now Headland walk near Coffs Harbour")
 
 ![Blue-Tongued Lizard](/images/blue-tongued-lizard-min.jpg "Blue-Tongued Lizard")
 
-![](/images/straddie-roo-min.jpg "Roo traffic at Minjerribah (North Stradbroke Island)")
+![Kangaroo hopping across the road at Minjerribah (North Stradbroke Island)](/images/straddie-roo-min.jpg "Roo traffic at Minjerribah (North Stradbroke Island)")
 
-![Rainbow Lorikeet](/images/lorikeet-min.jpg "Rainbow Lorikeet")
+![The beautiful blue, red, yellow and green feathers of a Rainbow Lorikeet](/images/lorikeet-min.jpg "Rainbow Lorikeet")
 
-![Kookaburras next door](/images/kookas-min.jpg "Kookaburras next door")
+![Two pretty Kookaburras on the TV aerial next door](/images/kookas-min.jpg "Kookaburras next door")
 
-![Bush Stone Curlews aka "Thick Knees"](/images/stone-curlew-min.jpg "Bush Stone Curlews aka \"Thick Knees\"")
+![Bush Stone Curlew aka "Thick Knees" looking unimpressed](/images/stone-curlew-min.jpg "Bush Stone Curlew aka \"Thick Knees\"")
 
 ![Most easterly point of the Australian mainland (Cape Byron)](/images/eastern-point-min.jpg "Most easterly point of the Australian mainland (Cape Byron)")
 
-![Chrissie in the summer](/images/christmas-lights-min.jpg "Chrissie in the summer")
+![Extreme Christmas decorations in the summer sun](/images/christmas-lights-min.jpg "Chrissie in the summer")
 
 ![Satellite image of the 'Rain Bomb' in February](/images/rain-radar-min.png "The February Rain Bomb")
 
