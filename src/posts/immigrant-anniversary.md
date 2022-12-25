@@ -34,3 +34,5 @@ I’m living in suburbia paradiso surrounded by *Geckos*, *Skinks*, *Orb Weavers
 ![Look At Me Now Headland walk near Coffs Harbour](/images/look-at-me-now-headland-walk-min.jpg "Look At Me Now Headland walk near Coffs Harbour")
 
 ![Blue-Tongued Lizard](/images/blue-tongued-lizard-min.jpg "Blue-Tongued Lizard")
+
+![](/images/straddie-roo-min.jpg "Roo traffic at Minjerribah (North Stradbroke Island)")
