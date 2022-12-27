@@ -2,9 +2,9 @@
 layout: layouts/post.njk
 title: Thoughts on my first year in Australia
 metaTitle: Thoughts on my first year in Australia
-metaDesc: My first year in Australia
+metaDesc: Thoughts on my first year in Australia
 socialImage: /images/brissie-min.jpg
-date: 2022-12-11T07:49:55.095Z
+date: 2022-12-27T23:01:05.475Z
 tags:
   - travel
 ---
