@@ -41,7 +41,7 @@ arriving: tail end of covid, *Sydney* quarantine, covid on plane so more quarant
 
 ![Two pretty Kookaburras on the TV aerial next door](/images/kookas-min.jpg "Kookaburras next door")
 
-![Bush Stone Curlew aka "Thick Knees" looking unimpressed](/images/stone-curlew-min.jpg "Bush Stone Curlew aka \\"Thick Knees\\"")
+![Bush Stone Curlew aka 'Thick Knees' looking unimpressed](/images/stone-curlew-min.jpg "Bush Stone Curlew aka 'Thick Knees'")
 
 ![Most easterly point of the Australian mainland (Cape Byron)](/images/eastern-point-min.jpg "Most easterly point of the Australian mainland (Cape Byron)")
 
