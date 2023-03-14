@@ -4,6 +4,9 @@ title: The Road to Shanghai (via Austria)
 date: 2023-03-14T11:52:23.626Z
 tags:
   - dev
+  - ethereum
+  - blockchain
+  - shanghai
 ---
 [Once again](https://www.simondudley.com/posts/testing-the-merge-with-10-000-validators/), we're on the verge of a Goerli hardfork for [Ethereum's next upgrade, Shanghai](https://blog.ethereum.org/2023/03/08/goerli-shapella-announcement). This time around, I was leading the charge from the Besu side and want to share some thoughts about how it's gone so far, some lessons learned and some interesting tools.
 
