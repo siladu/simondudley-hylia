@@ -2,10 +2,12 @@
 layout: layouts/post.njk
 title: The Road to Shanghai (via Austria)
 date: 2023-03-14T10:47:49.488Z
+tags:
+  - dev
 ---
-Once again, we're on the verge of a Goerli hardfork for Ethereum's next upgrade, Shanghai. This time around, I was leading the charge from the Besu side and want to share some thoughts about how it's gone so far, some interesting tools and some lessons learned.
+[Once again](https://www.simondudley.com/posts/testing-the-merge-with-10-000-validators/), we're on the verge of a Goerli hardfork for [Ethereum's next upgrade, Shanghai](https://blog.ethereum.org/2023/03/08/goerli-shapella-announcement). This time around, I was leading the charge from the Besu side and want to share some thoughts about how it's gone so far, some lessons learned and some interesting tools.
 
-The primary feature in the Shanghai upgrade is validator withdrawals, as specified by https://eips.ethereum.org/EIPS/eip-4895. Validators are users who stake ETH to secure Ethereum's Proof of Stake consensus mechanism and get rewarded in the process. The previous upgrade, The Merge (aka Paris) transitioned the Ethereum protocol to Proof of Stake and this upgrade completes the job by allowing stakers to withdraw their rewards as well as their full stake.
+The primary feature in the Shanghai upgrade is validator withdrawals, as specified by [EIP-4895](https://eips.ethereum.org/EIPS/eip-4895). Validators are users who stake ETH to secure [Ethereum's Proof of Stake](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/) consensus mechanism and get rewarded in the process. The previous upgrade, The Merge (aka Paris) transitioned the Ethereum protocol from Proof of Work to Proof of Stake and this upgrade completes the job by allowing stakers to withdraw their rewards as well as their full stake.
 
 With Proof of Stake, the Ethereum blockchain is a combination of two systems: 
 
@@ -15,8 +17,6 @@ With Proof of Stake, the Ethereum blockchain is a combination of two systems:
 The specification for withdrawals on the EL side was simpler than on the CL, and since I work on Besu I will focus on the EL perspective.
 
 For more details about the withdrawals upgrade see: https://consensys.net/shanghai-capella-upgrade/
-
-Shanghai also includes some smaller changes to the EVM, more details here: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md and https://cointelegraph.com/news/next-stop-shanghai-ethereum-s-latest-milestone-approaches
 
 My overall feeling is this has been a pretty smooth fork which I believe is primarily due to:
 
@@ -61,4 +61,7 @@ https://hivetests2.ethdevops.io
 https://hivewithdrawals.ethdevops.io
 
 The only drawback is that they take a long time to run so you can't effectively wire them into your CI. They run a couple of times a day though and we're looking at how we can integrate alerts with them so we know when we've broken something.
-It's quite a big investment in keeping on top of making them all pass, but the value of this regression suite is hard to put a number on: they have found many a bug.
+It's quite a big investment in keeping on top of making them all pass, but the value of this regression suite is hard to put a number on: they have found many a bug.\
+\
+I﻿n all, I've had a wild six months getting to grips with Ethereum mainnet development\
+and the interesting processes and tools that come with it. It's even been topped off with my first news interview: https://cointelegraph.com/news/next-stop-shanghai-ethereum-s-latest-milestone-approaches
