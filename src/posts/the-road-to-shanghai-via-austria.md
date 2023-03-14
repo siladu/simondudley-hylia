@@ -1,6 +1,8 @@
 ---
 layout: layouts/post.njk
 title: The Road to Shanghai (via Austria)
+metaTitle: The Road to Shanghai (via Austria)
+metaDesc: The Road to Shanghai (via Austria)
 date: 2023-03-14T11:52:23.626Z
 tags:
   - dev
