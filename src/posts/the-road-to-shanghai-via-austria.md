@@ -50,7 +50,7 @@ By the time we felt pretty stable on the devnets, we now had the job of getting 
 
 ## I﻿nterop
 
-I﻿n the end we were able to get a production-grade implementation of Withdrawals merged into main ready for the [Edelweiss interop workshop](https://blog.ethereum.org/2023/02/07/edelweiss-interop-recap) in Austria. Edelweiss was a great chance for me to meet the other core devs for the first time, even including some members of the Besu team.
+I﻿n the end we were able to get a production-grade implementation of Withdrawals merged into main ready for the [Edelweiss interop workshop](https://blog.ethereum.org/2023/02/07/edelweiss-interop-recap) in Austria. Edelweiss was a great chance for me to [meet the other core devs](https://twitter.com/SiLaDu/status/1620175559157497859) for the first time, even including some members of the Besu team.
 
 Besu was in pretty good shape by this point so we were mostly filling gaps in tests. An achievement for in-person cross-team working was *ethDreamer*, a member of Lighthouse, corralling everyone to agree to implement a new API endpoint, [engine_exchangeCapabilities](https://github.com/ethereum/execution-apis/pull/364) as part of Shanghai. Within 24 hours, [we had this in the Besu codebase](https://github.com/hyperledger/besu/pull/4997)a﻿nd were able to test the interop between Besu and Lighthouse the following day.
 
