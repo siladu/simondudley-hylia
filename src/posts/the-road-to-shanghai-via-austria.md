@@ -18,7 +18,7 @@ With Proof of Stake, the Ethereum blockchain is a combination of two systems:
 
 The specification for withdrawals on the EL side was simpler than on the CL, and since I work on Besu I will focus on the EL perspective.
 
-For more details about the withdrawals upgrade this is a good read, https://consensys.net/shanghai-capella-upgrade/
+For more details about the withdrawals upgrade this is a good read, https://consensys.net/shanghai-capella-upgrade.
 
 My overall feeling is this has been a pretty smooth fork so far which I believe is primarily due to:
 
@@ -49,13 +49,16 @@ I﻿n the end we were able to get a production-grade implementation of Withdrawa
 
 Besu was in pretty good shape by this point so we were mostly filling gaps in tests. An achievement for in-person cross-team working was *ethDreamer*, a member of Lighthouse, corralling everyone to agree to implement a new API endpoint, [engine_exchangeCapabilities](https://github.com/ethereum/execution-apis/pull/364) as part of Shanghai. Within 24 hours, [we had this in the Besu codebase](https://github.com/hyperledger/besu/pull/4997)a﻿nd were able to test the interop between Besu and Lighthouse the following day.
 
-Apart from having great specifications to work from, the other first-class developer experience is the Hive tests, built and maintained by the Ethereum Foundation. A large suite of docker-based end-to-end tests that cover all manner of edge cases and even spin up mini-networks with the various client pairs. These links may eventually go stale but it's so impressive I want to share them:
+## T﻿esting 
+
+Apart from having great specifications to work from and the devnets to play with, another first-class developer experience is the Hive tests, built and maintained by the Ethereum Foundation. A large suite of docker-based end-to-end tests that cover all manner of edge cases and even spin up mini-networks with the various client pairs. These links may eventually go stale but it's so impressive I want to share them:
 https://github.com/ethereum/hive
 https://hivetests2.ethdevops.io
 https://hivewithdrawals.ethdevops.io
 
-The only drawback is that they take a long time to run so you can't effectively wire them into your CI. They run a couple of times a day though and we're looking at how we can integrate alerts with them so we know when we've broken something.
-It's quite a big investment in keeping on top of making them all pass, but the value of this regression suite is hard to put a number on: they have found many a bug.\
+The only drawback is that they take a long time to run so you can't effectively wire them into your CI pipeline. They do run a couple of times a day and we're looking at how we can integrate alerts with them so we know as soon as we've broken something.
+It's quite a big investment keeping on top of making them all pass, but the value of this regression suite is hard to put a number on: they have found many a bug!\
 \
 I﻿n all, I've had a wild six months getting to grips with Ethereum mainnet development\
-and the interesting processes and tools that come with it. It's even been topped off with my first news interview: https://cointelegraph.com/news/next-stop-shanghai-ethereum-s-latest-milestone-approaches
+and the interesting processes and tools that come with it. It's even been topped off with my first press interview (my bit's near the bottom!) \
+https://cointelegraph.com/news/next-stop-shanghai-ethereum-s-latest-milestone-approaches
