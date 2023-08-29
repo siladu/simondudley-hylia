@@ -44,7 +44,7 @@ I'm sure most Agile experts would agree with this sentiment, but I wonder if the
 
 *I was keen to fact-check my impression about the decline of the architect role and Google does seem to agree:*
 
-* *[https://trends.google.com/trends/explore?date=all&q=software%20architect,software%20developer,business%20analyst,software%20engineer,solution%20architect&hl=en-GB](<* *https://trends.google.com/trends/explore?date=all&q=software%20architect,software%20developer,business%20analyst,software%20engineer,solution%20architect&hl=en-GB*>)*
+* *<https://trends.google.com/trends/explore?date=all&q=software%20architect,software%20developer,business%20analyst,software%20engineer,solution%20architect&hl=en-GB>*
 * *Googling for "Are software architects declining" and "are software architects increasing" yields similar results:*
 
   * *<https://www.infoq.com/articles/care-about-architecture/>*
