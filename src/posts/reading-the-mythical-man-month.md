@@ -36,22 +36,11 @@ Over several chapters, Brooks emphasises the importance of a software system's c
 This implies top-down design and Brooks recommends minimising the number of people involved, hence the architect role.
 
 An interesting comparison to draw here is the concept of emergent design from the Agile school of thought.
-In my experience, architect roles have been on the wane in recent years and perhaps the rise of Agile teams is a relevant factor. I'm not convinced that this decline is an entirely good thing and I'm skeptical of emergent design.
+In my experience, architect roles have been on the wane in recent years¹ and perhaps the rise of Agile teams is a relevant factor. I'm not convinced that this decline is an entirely good thing and I'm skeptical of emergent design.
 
 The following Dave Thomas quote sums it up well: "Big up-front design is dumb! but No up-front design is dumber!"
 
 I'm sure most Agile experts would agree with this sentiment, but I wonder if the Agile approach can too easily lead teams into a trap of eschewing upfront design entirely. This being enabled by the lack of an architect role; instead relying on engineers to voluntarily fight against the path of least resistance: churning out features in the existing architecture.
-
-*I was keen to fact-check my impression about the decline of the architect role and Google does seem to agree:*
-
-* *<https://trends.google.com/trends/explore?date=all&q=software%20architect,software%20developer,business%20analyst,software%20engineer,solution%20architect&hl=en-GB>*
-* *Googling for "Are software architects declining" and "are software architects increasing" yields similar results:*
-
-  * *<https://www.infoq.com/articles/care-about-architecture/>*
-  * *<https://www.linkedin.com/pulse/diminishing-role-software-architect-raghu-kishore-vempati/>*
-  * *<https://jero786.medium.com/what-is-a-software-architect-a9627241813a>*
-
-*ChatGPT actually suggests the opposite: that the number of architect roles is increasing, but it couldn't back up its claims and I'm not sure I trust it more than Google in this instance.*
 
 3. #### Estimating software tasks has always been challenging
 
@@ -70,3 +59,14 @@ Finally, I particularly like this quote:
 which both justifies why estimation is hard as well as the need to do some upfront design including writing things down early on in the process to tease out the finer details.
 
 S﻿ince both *The Cathedral & The Bazaar* and the newer chapters of *MM-M* sing the praises of *[Peopleware: Productive Projects and Teams](https://www.goodreads.com/book/show/67825.Peopleware)*, I am continuing my tangent in that direction.
+
+¹ I was keen to fact-check my impression about the decline of the architect role and Google does seem to agree:
+
+* <https://trends.google.com/trends/explore?date=all&q=software%20architect,software%20developer,business%20analyst,software%20engineer,solution%20architect&hl=en-GB>
+* Googling for "Are software architects declining" and "are software architects increasing" yields similar results:
+
+  * <https://www.infoq.com/articles/care-about-architecture/>
+  * <https://www.linkedin.com/pulse/diminishing-role-software-architect-raghu-kishore-vempati/>
+  * <https://jero786.medium.com/what-is-a-software-architect-a9627241813a>
+
+ChatGPT actually suggests the opposite: that the number of architect roles is increasing, but it couldn't back up its claims and I'm not sure I trust it more than Google in this instance.
