@@ -18,35 +18,36 @@ It wasn't until I started to read *[The Cathedral & The Bazaar](https://www.good
 I have the 20th anniversary edition which features four extra chapters, including a retrospective on what had changed in 1995 since the original 1975 edition.
 Being 2023 we're now closer to a 50th anniversary of *MM-M* and nearly 30 years since the anniversary edition. Perhaps even more has changed since 1995 than between the first and second edition!
 
-The original chapters have a good amount of relevant commentary and that shouldn't be too much of a surprise since any seasoned professional soon realises the hardest aspect of software development is communication and organisation of people. Technology may have (dramatically?) changed in 50 years, but people have not.
+The original chapters have a good amount of relevant commentary and that shouldn't be too much of a surprise since any seasoned professional soon realises the hardest aspect of software development is communication and organisation of people. Technology may have [dramatically](https://www.goodreads.com/book/show/3532021-the-mighty-micro) changed in 50 years, but people have not.
 
-There's also a fair bit of irrelevant content especially some of the examples regarding memory space, productivity measures and "The Surgical Team" but, a couple of chapters aside, it doesn't detract from the book's readability.
+There's also a fair amount of irrelevant content especially some of the examples regarding memory space, productivity measures and "The Surgical Team" but, a couple of chapters aside, it doesn't detract from the book's readability.
 
-I liked that some of the chapters are backed up by evidence, although the book is largely based on Brooks's anecdotal experience on software projects he built in the 1960s (so it's actually 60 year old advice!)
+I liked that some of the chapters are backed up by evidence, although the book is largely based on Brooks's anecdotal experience building the IBM System/360 in the 1960s (so it's actually 60 year old advice!)
 
-My biggest takeaways were:
+My biggest **takeaways** were:
 
 1. #### Brooks's Law: "Adding manpower to a late software project makes it later"
 
-The central point of the eponymous chapter. This certainly jives with my experience and it's good to see the idea considered in depth. There's little evidence to support this claim in the original chapter but his retrospective references some subsequent studies. These studies suggest the reality is more nuanced: dependent on the people who are added and when they are added, but Brooks still stands by his original claim as a good rule of thumb.
+The central point of the eponymous chapter. This certainly jives with my experience and it's good to see the idea considered in depth. There's little evidence to support this claim in the original chapter but his retrospective references some subsequent studies. They suggest the reality is more nuanced: dependent on the people who are added and when they are added. Brooks still stands by his original claim as a good rule of thumb.
 
 2. #### Conceptual Integrity and the Architect
 
-Over several chapters, Brooks emphasises the importance of a software system's conceptual integrity which he asserts leads to simpler software and therefore less time debugging. This seems reasonable to me and Brooks continues to stand by it. 
+Over several chapters, Brooks emphasises the importance of a software system's conceptual integrity which he asserts leads to simpler software and therefore less time debugging. This seems reasonable to me and Brooks continues to advise it. 
 This implies top-down design and Brooks recommends minimising the number of people involved, hence the architect role.
 
 An interesting comparison to draw here is the concept of emergent design from the Agile school of thought.
 In my experience, architect roles have been on the wane in recent years¹ and perhaps the rise of Agile teams is a relevant factor. I'm not convinced that this decline is an entirely good thing and I'm skeptical of emergent design.
 
-The following Dave Thomas quote sums it up well: "Big up-front design is dumb! but No up-front design is dumber!"
+The following Dave Thomas quote sums it up well: 
+> Big design up front is dumb, but doing no design up front is even dumber
 
-I'm sure most Agile experts would agree with this sentiment, but I wonder if the Agile approach can too easily lead teams into a trap of eschewing upfront design entirely. This being enabled by the lack of an architect role; instead relying on engineers to voluntarily fight against the path of least resistance: churning out features in the existing architecture.
+I'm sure most Agile experts would agree with this sentiment but I wonder if the Agile approach can too easily lead teams into a trap of eschewing upfront design entirely. This being enabled by the lack of an architect role; instead relying on engineers to voluntarily fight against the path of least resistance: churning out features in the existing architecture.
 
 3. #### Estimating software tasks has always been challenging
 
-Estimation has been like a [Sword of Damocles](https://en.wikipedia.org/wiki/Damocles) hanging above software engineers for as long as I've been in the industry. Considering *MM-M* proves estimation woes were pretty well known in 1975, it's disheartening this hasn't improved over the years, or at least, the issue isn't more widely recognised. Unless you're lucky enough to find yourself at an organisation that holds no weight to estimates, then maybe we are doomed to repeat this charade, with managers and programmers both complicit. All programmers are optimists, as Brooks points out early on in the book.
+Estimation has been like a [Sword of Damocles](https://en.wikipedia.org/wiki/Damocles) hanging above software engineers for as long as I've been in the industry. Considering *MM-M* proves estimation woes were pretty well known in 1975 it's disheartening this hasn't improved over the years, or at least, the issue isn't more widely recognised. Unless you're lucky enough to find yourself at an organisation that holds no weight to estimates, then maybe we are doomed to repeat this charade, with managers and programmers both complicit. Afterall, all programmers are optimists, as Brooks points out early on in the book.
 
-Brooks cites various studies and despite me feeling it in my bones, these were the first actual studies I've seen. The most interesting one claiming that jobs take twice as long as estimated. This largely being down to only 50% of employees' time actually getting spent on programming/debugging, the rest being spent on machine issues, short unrelated jobs, meetings, paperwork, company business, sickness, personal time, etc.
+Despite me feeling it in my bones, the studies Brooks cites were the first I'd actually seen. The most interesting one claiming that jobs take twice as long as estimated. This largely being down to only 50% of employees' time actually getting spent on programming/debugging, the rest being spent on machine issues, short unrelated jobs, meetings, paperwork, company business, sickness, personal time, etc.
 
 Since I don't believe we've made much progress in this field, Brooks's comment bears repeating:
 
@@ -56,7 +57,7 @@ Finally, I particularly like this quote:
 
 > The incompleteness and inconsistencies of our ideas become clear only during implementation
 
-which both justifies why estimation is hard as well as the need to do some upfront design including writing things down early on in the process to tease out the finer details.
+which both justifies why estimation is hard as well as the need to do some upfront design including writing things down and communicating them early on in the process to tease out the finer details.
 
 S﻿ince both *The Cathedral & The Bazaar* and the newer chapters of *MM-M* sing the praises of *[Peopleware: Productive Projects and Teams](https://www.goodreads.com/book/show/67825.Peopleware)*, I am continuing my tangent in that direction.
 
