@@ -10,7 +10,8 @@ tags:
   - books
 ---
 ![The Mythical Man-Month by Frederick P. Brooks, Jr.](https://www.oreilly.com/api/v2/epubs/0201835959/files/graphics/f0016-01.jpg "The Mythical Man-Month by Frederick P. Brooks, Jr.")
-https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month
+
+[https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month)
 
 The Mythical Man-Month (*MM-M*) is hailed as a classic in the software industry: a series of essays addressing software project management.
 
