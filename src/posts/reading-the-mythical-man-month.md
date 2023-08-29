@@ -43,7 +43,7 @@ The following Dave Thomas quote sums it up well: "Big up-front design is dumb! b
 
 I'm sure most Agile experts would agree with this sentiment, but I wonder if the Agile approach can too easily lead teams into a trap of eschewing upfront design entirely. This being enabled by the lack of an architect role; instead relying on engineers to voluntarily fight against the path of least resistance: churning out features in the existing architecture.
 
-> Aside: I was keen to fact-check my impression about the decline of the architect role and Google does seem to agree:
+> **_ASIDE:_** I was keen to fact-check my impression about the decline of the architect role and Google does seem to agree:
 >
 > * https://trends.google.com/trends/explore?date=all&q=software%20architect,software%20developer,business%20analyst,software%20engineer,solution%20architect&hl=en-GB
 > * Googling for "Are software architects declining" and "are software architects increasing" yields similar results:
