@@ -47,7 +47,7 @@ I'm sure most Agile experts would agree with this sentiment but I wonder if the 
 
 Estimation has been like a [Sword of Damocles](https://en.wikipedia.org/wiki/Damocles) hanging above software engineers for as long as I've been in the industry. Considering *MM-M* proves estimation woes were pretty well known in 1975 it's disheartening this hasn't improved over the years, or at least, the issue isn't more widely recognised. Unless you're lucky enough to find yourself at an organisation that holds no weight to estimates, then maybe we are doomed to repeat this charade, with managers and programmers both complicit. Afterall, all programmers are optimists, as Brooks points out early on in the book.
 
-Despite me feeling it in my bones, the studies Brooks cites were the first I'd actually seen. The most interesting one claiming that jobs take twice as long as estimated. This largely being down to only 50% of employees' time actually getting spent on programming/debugging, the rest being spent on machine issues, short unrelated jobs, meetings, paperwork, company business, sickness, personal time, etc.
+Despite me feeling it in my bones, the studies Brooks cites were the first I'd actually seen. The most interesting claiming that jobs take twice as long as estimated. This largely being down to only 50% of employees' time actually getting spent on programming/debugging, the rest being spent on machine issues, short unrelated jobs, meetings, paperwork, company business, sickness, personal time, etc.
 
 Since I don't believe we've made much progress in this field, Brooks's comment bears repeating:
 
