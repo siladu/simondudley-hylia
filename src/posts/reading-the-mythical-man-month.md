@@ -60,6 +60,8 @@ which both justifies why estimation is hard as well as the need to do some upfro
 
 S﻿ince both *The Cathedral & The Bazaar* and the newer chapters of *MM-M* sing the praises of *[Peopleware: Productive Projects and Teams](https://www.goodreads.com/book/show/67825.Peopleware)*, I am continuing my tangent in that direction.
 
+### F﻿ootnotes
+
 ¹ I was keen to fact-check my impression about the decline of the architect role and Google does seem to agree:
 
 * <https://trends.google.com/trends/explore?date=all&q=software%20architect,software%20developer,business%20analyst,software%20engineer,solution%20architect&hl=en-GB>
