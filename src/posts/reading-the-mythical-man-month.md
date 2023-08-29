@@ -13,7 +13,7 @@ tags:
 
 [*The Mythical Man-Month* (*MM-M*)](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) is hailed as a classic in the software industry: a series of essays addressing software project management.
 
-It wasn't until I started to read *[The Cathedral & The Bazaar](goodreads.com/book/show/134825.The_Cathedral_the_Bazaar)*, which referenced *MM-M* extensively in the notes and bibliography, that I decided a tangent of pre-requisite reading was called for. Since I'd had *MM-M* sitting on my shelf for a while, and it was written in 1975, it felt overdue.
+It wasn't until I started to read *[The Cathedral & The Bazaar](https://www.goodreads.com/book/show/134825.The_Cathedral_the_Bazaar)*, which referenced *MM-M* extensively in the notes and bibliography, that I decided a tangent of pre-requisite reading was called for. Since I'd had *MM-M* sitting on my shelf for a while, and it was written in 1975, it felt overdue.
 
 I have the 20th anniversary edition which features four extra chapters, including a retrospective on what had changed in 1995 since the original 1975 edition.
 Being 2023 we're now closer to a 50th anniversary of *MM-M* and nearly 30 years since the anniversary edition. Perhaps even more has changed since 1995 than between the first and second edition!
