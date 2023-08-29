@@ -11,9 +11,7 @@ tags:
 ---
 ![The Mythical Man-Month by Frederick P. Brooks, Jr.](https://www.oreilly.com/api/v2/epubs/0201835959/files/graphics/f0016-01.jpg "The Mythical Man-Month by Frederick P. Brooks, Jr.")
 
-[https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month)
-
-The Mythical Man-Month (*MM-M*) is hailed as a classic in the software industry: a series of essays addressing software project management.
+[*The Mythical Man-Month* (*MM-M*)](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month) is hailed as a classic in the software industry: a series of essays addressing software project management.
 
 It wasn't until I started to read *[The Cathedral & The Bazaar](goodreads.com/book/show/134825.The_Cathedral_the_Bazaar)*, which referenced *MM-M* extensively in the notes and bibliography, that I decided a tangent of pre-requisite reading was called for. Since I'd had *MM-M* sitting on my shelf for a while, and it was written in 1975, it felt overdue.
 
@@ -44,7 +42,7 @@ The following Dave Thomas quote sums it up well: "Big up-front design is dumb! b
 
 I'm sure most Agile experts would agree with this sentiment, but I wonder if the Agile approach can too easily lead teams into a trap of eschewing upfront design entirely. This being enabled by the lack of an architect role; instead relying on engineers to voluntarily fight against the path of least resistance: churning out features in the existing architecture.
 
-> **_ASIDE:_** I was keen to fact-check my impression about the decline of the architect role and Google does seem to agree:
+> ***ASIDE:*** I was keen to fact-check my impression about the decline of the architect role and Google does seem to agree:
 >
 > * https://trends.google.com/trends/explore?date=all&q=software%20architect,software%20developer,business%20analyst,software%20engineer,solution%20architect&hl=en-GB
 > * Googling for "Are software architects declining" and "are software architects increasing" yields similar results:
