@@ -13,11 +13,11 @@ We introduced two new storage-saving features in [Besu version 24.3.0](https://g
 2. `storage x-trie-log prune`
 
 Details of the announcement here:
-https://wiki.hyperledger.org/display/BESU/Limit+Trie+Logs+for+Bonsai
+[https://wiki.hyperledger.org/display/BESU/Limit+Trie+Logs+for+Bonsai](https://wiki.hyperledger.org/display/BESU/Limit+Trie+Logs+for+Bonsai)
 
 ## Bonsai and trie logs
 
-Besu's popular BONSAI data storage format enables a node to only store the world state for the latest, block greatly reducing storage requirements. It achieves this by maintaining state diffs between blocks called trie logs. More details about BONSAI and trie logs: https://consensys.io/blog/bonsai-tries-guide
+Besu's popular BONSAI data storage format enables a node to only store the world state for the latest, block greatly reducing storage requirements. It achieves this by maintaining state diffs between blocks called trie logs. More details about BONSAI and trie logs: [https://consensys.io/blog/bonsai-tries-guide](https://consensys.io/blog/bonsai-tries-guide)
 
 When a block is imported into Besu, we also create a trie log (state diff) and store it in TRIE_LOG_STORAGE. Besu uses RocksDB for its database and stores trie logs in a column family aptly called TRIE_LOG_STORAGE:
 
