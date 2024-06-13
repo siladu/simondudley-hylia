@@ -15,6 +15,8 @@ We introduced two new storage-saving features in [Besu version 24.3.0](https://g
 Details of the announcement here:
 [https://wiki.hyperledger.org/display/BESU/Limit+Trie+Logs+for+Bonsai](https://wiki.hyperledger.org/display/BESU/Limit+Trie+Logs+for+Bonsai)
 
+A﻿s of [Besu version 24.6.0](https://github.com/hyperledger/besu/releases/tag/24.6.0) `--bonsai-limit-trie-logs-enabled` has been made production ready and enabled by default (unless you're using `sync-mode=FULL` to maintain an archive node).
+
 ## Bonsai and trie logs
 
 Besu's popular BONSAI data storage format enables a node to only store the world state for the latest, block greatly reducing storage requirements. It achieves this by maintaining state diffs between blocks called trie logs. More details about BONSAI and trie logs: [https://consensys.io/blog/bonsai-tries-guide](https://consensys.io/blog/bonsai-tries-guide)
