@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Reducing Storage in Besu
-date: 2024-03-26T07:20:38.092Z
+date: 2024-06-13T09:02:20.482Z
 tags:
   - dev
   - besu
