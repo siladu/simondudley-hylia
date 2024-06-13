@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Reducing Storage in Besu
-date: 2024-03-26T07:20:38.092Z
+date: 2024-06-13T09:02:20.482Z
 tags:
   - dev
   - besu
@@ -14,6 +14,8 @@ We introduced two new storage-saving features in [Besu version 24.3.0](https://g
 
 Details of the announcement here:
 [https://wiki.hyperledger.org/display/BESU/Limit+Trie+Logs+for+Bonsai](https://wiki.hyperledger.org/display/BESU/Limit+Trie+Logs+for+Bonsai)
+
+A﻿s of [Besu version 24.6.0](https://github.com/hyperledger/besu/releases/tag/24.6.0) `--bonsai-limit-trie-logs-enabled` has been made production ready and enabled by default (unless you're using `sync-mode=FULL` to maintain an archive node).
 
 ## Bonsai and trie logs
 
