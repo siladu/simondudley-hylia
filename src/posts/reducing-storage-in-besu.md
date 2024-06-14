@@ -12,7 +12,7 @@ We introduced two new storage-saving features in [Besu version 24.3.0](https://g
 1. `--Xbonsai-limit-trie-logs-enabled`
 2. `storage x-trie-log prune`
 
-Details of the announcement here:
+More details and instructions here:
 [https://wiki.hyperledger.org/display/BESU/Limit+Trie+Logs+for+Bonsai](https://wiki.hyperledger.org/display/BESU/Limit+Trie+Logs+for+Bonsai)
 
 A﻿s of [Besu version 24.6.0](https://github.com/hyperledger/besu/releases/tag/24.6.0) `--bonsai-limit-trie-logs-enabled` has been made production ready and enabled by default (unless you're using `sync-mode=FULL` to maintain an archive node).
